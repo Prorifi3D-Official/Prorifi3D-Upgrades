@@ -4,15 +4,14 @@
 ## STEP2:Import the configs
 ![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/blob/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic1.png)
 - ### You can find the import at File->import->import config bundle
-![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic2.png)
+![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/blob/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic2.png)
 - ### Then import the profile you just downloaded
 
 ## STEP3:Check the profile
 - ### you should see 5 settings were imported
-![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic3.png)
+![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/blob/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic3.png)
 - ### check the presets and you can find new profiles there!
-![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic4.png)
-
+![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/blob/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic4.png)
 ## STEP4:Print
 - ### Happy printing!
 :wink:
