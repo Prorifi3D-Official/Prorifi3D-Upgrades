@@ -2,7 +2,7 @@
 ## STEP1:[Download](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/PrusaSlicer_config_Prorifi3D_bundle.ini) our profile
 
 ## STEP2:Import the configs
-![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic1.png)
+![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/blob/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic1.png)
 - ### You can find the import at File->import->import config bundle
 ![alt text](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Slicer%20Profile/src/pic2.png)
 - ### Then import the profile you just downloaded
