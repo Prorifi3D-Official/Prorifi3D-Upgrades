@@ -1,6 +1,6 @@
 site_name: Prorifi3D Knowledge Base
-#repo_url: https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades
-#repo_name: Prorifi3D on GitHub
+repo_url: https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades
+repo_name: Prorifi3D on GitHub
 nav:
     - Home: index.md
     - Product Technical Guide: 
