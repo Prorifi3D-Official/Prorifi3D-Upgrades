@@ -1,7 +1,0 @@
-.md-sidebar--secondary {
-  order: 1;
-}
-
-.md-sidebar--primary {
-  order: 0;
-}

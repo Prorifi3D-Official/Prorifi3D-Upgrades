@@ -16,6 +16,7 @@ theme:
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
+    - toc.integrate
     - toc.follow
     - navigation.top
   palette:
@@ -35,8 +36,6 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
-extra_css:
-  - stylesheets/sidebar.css
 extra:
   social:
     - icon: fontawesome/brands/facebook
