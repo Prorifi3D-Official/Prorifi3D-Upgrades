@@ -1,4 +1,6 @@
-
+---
+hide:
+---
 # Stage 1:Motor Upgrades
 
 ## 1. Preparation and disassembly
