@@ -1,7 +1,3 @@
----
-hide:
-  - toc
----
 
 # Stage 1:Motor Upgrades
 

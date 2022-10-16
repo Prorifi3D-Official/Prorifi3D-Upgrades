@@ -3,9 +3,11 @@ repo_url: https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades
 repo_name: Prorifi3D on GitHub
 nav:
     - Home: index.md
-    - Product Technical Guide:Product_Technical_Guide.md
+    - Product Technical Guide: 
+        - Product_Technical_Guide.md
         
-    - General Technical Guide:General_Technical_Guide.md
+    - General Technical Guide:
+        - General_Technical_Guide.md
         
     - Contact us: contact.md
     
