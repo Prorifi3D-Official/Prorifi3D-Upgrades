@@ -504,5 +504,5 @@ M500
 
 - Slowly tighten the belt, and print the test block. Until you see the 2mm separations disappear completely. This tension should be ideal, you can record the current belt frequency for later reference.
 
-- If you see a 0.64mm separation pattern, that is MRR and your belt is way too tight! Untighten the belt. The ideal tension should be where the 2mm pattern caused by PE is gone and MRR is at its minimal. 
+- After the 2mm pattern is not visible as you increase the tension, you should keep tighting the belt untill the MRR is at its minimal. The ideal tension for the Dual Belt system with frame upgrade is relative high.
 
