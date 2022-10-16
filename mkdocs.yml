@@ -13,12 +13,10 @@ nav:
     
 theme:
   name: material
-  custom_dir: overrides
   logo: src/icons/logo.png
   favicon: src/icons/favicon.png
   features: 
     - navigation.instant
-    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - toc.follow
@@ -49,3 +47,5 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCRQNWRVH8KuHBi94MY16joQ
       name: Prorifi3D on YouTube
+extra_css:
+  - assets/sidebar.css
