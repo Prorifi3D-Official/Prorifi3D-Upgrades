@@ -6,17 +6,8 @@ nav:
     - Product Technical Guide: 
         - Product_Technical_Guide.md
         
-        - Stage 1 Motor Upgrades: stage1.md
-        
-        - Stage 2 Frame Upgrade & Dual Belt Plus: stage2.md
-        
-        - Motor Development Kit: How_to_solve_MRR.md
-        
     - General Technical Guide: 
-    
         - General_Technical_Guide.md
-        
-        - How to solve MRR: How_to_solve_MRR.md
         
     - Contact us: contact.md
     
