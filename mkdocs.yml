@@ -38,7 +38,8 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
-
+extra_css:
+  - stylesheets/sidebar.css
 extra:
   social:
     - icon: fontawesome/brands/facebook
@@ -47,5 +48,3 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCRQNWRVH8KuHBi94MY16joQ
       name: Prorifi3D on YouTube
-extra_css:
-  - assets/sidebar.css
