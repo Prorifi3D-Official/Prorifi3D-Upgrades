@@ -16,7 +16,6 @@ theme:
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
-    - toc.integrate
     - toc.follow
     - navigation.top
   palette:
