@@ -16,7 +16,6 @@ theme:
   logo: src/icons/logo.png
   favicon: src/icons/favicon.png
   features: 
-    - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - toc.follow
