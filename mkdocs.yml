@@ -1,13 +1,22 @@
 site_name: Prorifi3D Knowledge Base
-repo_url: https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades
-repo_name: Prorifi3D on GitHub
+#repo_url: https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades
+#repo_name: Prorifi3D on GitHub
 nav:
     - Home: index.md
     - Product Technical Guide: 
         - Product_Technical_Guide.md
         
-    - General Technical Guide:
+        - Stage 1 Motor Upgrades: stage1.md
+        
+        - Stage 2 Frame Upgrade & Dual Belt Plus: stage2.md
+        
+        - Motor Development Kit: How_to_solve_MRR.md
+        
+    - General Technical Guide: 
+    
         - General_Technical_Guide.md
+        
+        - How to solve MRR: How_to_solve_MRR.md
         
     - Contact us: contact.md
     
@@ -16,8 +25,11 @@ theme:
   logo: src/icons/logo.png
   favicon: src/icons/favicon.png
   features: 
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - toc.integrate 
     - toc.follow
     - navigation.top
   palette:
@@ -37,6 +49,7 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+
 extra:
   social:
     - icon: fontawesome/brands/facebook
