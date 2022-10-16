@@ -13,6 +13,7 @@ nav:
     
 theme:
   name: material
+  custom_dir: overrides
   logo: src/icons/logo.png
   favicon: src/icons/favicon.png
   features: 
@@ -22,7 +23,6 @@ theme:
     - navigation.tabs.sticky
     - toc.follow
     - navigation.top
-    - toc.integrate
   palette:
       primary: blue
 #  icon:
