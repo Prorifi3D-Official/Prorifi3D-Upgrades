@@ -1,5 +1,5 @@
 .md-sidebar--secondary {
-  order: 0;
+  order: 1;
 }
 
 .md-sidebar--primary {
