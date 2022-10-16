@@ -22,6 +22,7 @@ theme:
     - navigation.tabs.sticky
     - toc.follow
     - navigation.top
+    - toc.integrate
   palette:
       primary: blue
 #  icon:
