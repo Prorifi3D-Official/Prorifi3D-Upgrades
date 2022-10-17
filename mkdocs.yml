@@ -7,7 +7,8 @@ nav:
         - Product_Technical_Guide.md
         
         - Stage 1 Motor Upgrades: stage1.md
-        
+#        - stage1.md
+#        - stage2.md
         - Stage 2 Frame Upgrade & Dual Belt Plus: stage2.md
         
         - Motor Development Kit: How_to_solve_MRR.md
@@ -19,24 +20,30 @@ nav:
         - How to solve MRR: How_to_solve_MRR.md
         
     - Contact us: contact.md
-    
 theme:
   name: material
+#  custom_dir: overrides 
   logo: src/icons/logo.png
   favicon: src/icons/favicon.png
   features: 
-    - navigation.instant
-    - navigation.tracking
+#    - navigation.instant
+#    - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
-    - toc.integrate 
-    - toc.follow
-    - navigation.top
+#    - navigation.tabs.sticky
+#    - navigation.sections
+#    - toc.integrate 
+#    - toc.follow
+
+#    - navigation.top
   palette:
       primary: blue
 #  icon:
 #    repo: src/icons/favicon.png
   highlightjs: true
+
+extra_css:
+  - stylesheets/css.css
+
 plugins:
   - search
   - mkdocstrings:
