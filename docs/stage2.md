@@ -492,20 +492,3 @@ M907 X520 Y520
 M500
 ```
 
-
-## 12. Belt tension adjust
-
-- First set your belt to the lowest tension. You can use phone apps to determine the vibration frequency of your belt. For the Original i3 Mk3 series the minimum value should be about 54Hz.
-
-- You can use phone apps to measure the belt vibration frequency.
-
-- When measuring the belt frequency, push the heated bed all the way to the back (where the motor is). Slightly picking the lower belt in the middle as shown. You can use a hex key to assist. For the Dual belt system just pick one of the belts.
-
-![alt alternative text](./src/assets/Belt_tension/Belt_tension_dual.jpg)
-
-- Print the [Test block](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Test%20files), you may see there are vertical patterns with 2mm separations on the Y axis. This means your belt is too loose. 
-
-- Slowly tighten the belt, and print the test block. Until you see the 2mm separations disappear completely. This tension should be ideal, you can record the current belt frequency for later reference.
-
-- After the 2mm pattern is not visible as you increase the tension, you should keep tighting the belt untill the MRR is at its minimal. The ideal tension for the Dual Belt system with frame upgrade is relative high.
-
