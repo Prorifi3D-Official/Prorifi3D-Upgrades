@@ -500,7 +500,7 @@ M500
 
 - When measuring the belt frequency, push the heated bed all the way to the back (where the motor is). Slightly picking the lower belt in the middle as shown. You can use a hex key to assist. For the Dual Belt system you only need to pick one of the belts.
 
-![alt alternative text](./src/assets/Belt_tension/Belt_tension.jpg)
+![alt alternative text](./src/assets/Belt_tension/Belt_tension_dual.jpg)
 
 - Slowly tighten the belt, we recommend you tighten the belt to around **80Hz**. Which should give an overall good result. 
 
