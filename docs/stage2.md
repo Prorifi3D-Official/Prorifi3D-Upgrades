@@ -492,3 +492,17 @@ M907 X520 Y520
 M500
 ```
 
+## 11. Belt tension adjust
+
+- First set your belt to the lowest tension. You can use phone apps to determine the vibration frequency of your belt. The minimum value should be about 54Hz.
+
+- You can use phone apps to measure the belt vibration frequency.
+
+- When measuring the belt frequency, push the heated bed all the way to the back (where the motor is). Slightly picking the lower belt in the middle as shown. You can use a hex key to assist. For the Dual Belt system you only need to pick one of the belts.
+
+![alt alternative text](./src/assets/Belt_tension/Belt_tension.jpg)
+
+- Slowly tighten the belt, we recommend you tighten the belt to around **80Hz**. Which should give an overall good result. 
+
+- Print the test block and you shall see no 2mm patterns and MRR should be almost gone.
+
