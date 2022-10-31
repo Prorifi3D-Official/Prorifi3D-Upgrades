@@ -6,9 +6,9 @@
 ### [For Dual Belt Upgrade for Bear i3](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/Stage%201%20Upgrade/For%20Bear%20i3)
 
 
+## Our Knowledge Base:https://prorifi3d-knowledge-base.readthedocs.io/en/latest/
 
-
-#### Our web site:https://prorifi3d.com/
+#### Our Official web site:https://prorifi3d.com/
 
 #### Product page:https://prorifi3d.com/collections/upgrade-kit
 
