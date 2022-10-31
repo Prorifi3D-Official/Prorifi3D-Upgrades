@@ -486,6 +486,12 @@ Prorifi3D E motors have the same dimension as the original one. It is a direct r
 M907 X520 Y520
 ```
 
+- Change the steps per mm using
+
+```
+M92 Y80
+```
+
 - Save the settings by typing
 
 ```
