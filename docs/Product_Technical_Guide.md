@@ -14,6 +14,8 @@ hide:
 
 - [Stage2:XY Motor Upgrade + Structural optimization](./stage2.md)
 
+- [Upgrade Kit for Original MINI/MINI+](./MINI.md)
+
 ## Motor Development Kit:
 
 - [How to solve MRR](./How_to_solve_MRR.md)
