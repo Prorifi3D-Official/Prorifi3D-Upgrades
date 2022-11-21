@@ -86,7 +86,7 @@ Make sure you have the following tools and things available in the following 15 
 
 ![alt alternative text](./src/assets/Dual_Belt_Plus_MINI/DB+_mini_9.jpg) 
 
-- Install the new MINI Y-Belt-Holder-A with M3x10 screws, make sure you have the correct orientation.
+- Install the new MINI Y-Belt-Holder-A with M3x12 screws, make sure you have the correct orientation.
 
 ![alt alternative text](./src/assets/Dual_Belt_Plus_MINI/DB+_mini_0.jpg) 
 
@@ -136,7 +136,7 @@ Make sure you have the following tools and things available in the following 15 
 
 - Put Y Belt Clip into MINI Y Belt Holder B, the upper cover of the Y holder.
 
-- Attach MINI Y Belt Holder B to MINI Y Belt Holder A.Use M3x10 screws.  Make sure you turn the screws on both sides evenly in turn.
+- Attach MINI Y Belt Holder B to MINI Y Belt Holder A. Make sure you turn the screws on both sides evenly in turn.
 
 ![alt alternative text](./src/assets/Stage_2/db/db9.png)
 
