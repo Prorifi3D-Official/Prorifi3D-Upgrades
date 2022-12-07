@@ -74,7 +74,7 @@ Make sure you have the following tools and things available in the following 15 
 
 - Put the motor aside. keep the driving pulley in the box for later use. Leave the belt hanging for now.  
 
-Cut the zip tile on the sleeve, and remove and keep the sleeve for later use.
+- Cut the zip tile on the sleeve, and remove and keep the sleeve for later use.
 
 ### 2.2 Remove the Y motors
 

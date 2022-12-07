@@ -152,13 +152,46 @@ Make sure you have the following tools and things available：
 
 ## 3. Disassemble your Original i3
 
+
+### 3.1 Modifications before disassembly
+
+- Before you do the disassemble. Please change the X motor first as we will reuse the entire X-axis and E-axis later.
+
+- If you would like to replace the E motor as well, please refer to the section: [5. E-axis assembly](https://help.prusa3d.com/guide/5-e-axis-assembly_28536) in the offical guide to rebuild the E axis with the Prorifi3D E motor.
+
+### 3.2 Replace the X motor on the X-axis
+
+- Untighten the screws on the driving pulley to make sure you can remove the pulley from the motor later. There are two screws 90 degrees apart on the pulley.
+
+- Slowly push the E axis away from the X motor side. Use the finger to snap the belt. You should feel some force which means the belt is tight. Now slowly untighten the tension screw and the three screws that fix the X motor with a 2.5mm Allen key until you feel no force between your fingers.
+
+- Now use your hand to assist and hold the X motor so it will not suddenly fall off. Use a 2.5mm Allen key to remove the three screw that holds the X motor. Do not keep the screws.
+
+- Take off the X motor and remove the pulley from the motor.
+
+- Put the motor aside. keep the driving pulley in the box for later use. Leave the belt hanging for now.  
+
+- Cut the zip tile on the sleeve, and remove and keep the sleeve for later use.
+
+- Put the sleeve on the Prorifi3D X motor wire just like you did for the original motor. Use a zip tile to secure the sleeve position
+
+- Install the Prorifi3D X motor in the original position, make sure you use M3x16mm screws.
+
+- Reinstall the X driving pulley
+
+- Adjust the position of the X driving pulley, make sure the belt does not touch the edge of the pulley when moving.
+
+- Adjust the tightness of the X belt. We can fine-tune the belt tension later according to the print test. 
+
+### 3.3 Disassemble
+
 - For disassembling the Original i3 you can refer to the bear guide:[https://guides.bear-lab.com/Guide/02.+Preflight+check+and+disassembly/42?lang=en](https://guides.bear-lab.com/Guide/02.+Preflight+check+and+disassembly/42?lang=en)
 
 - The Bear upgrade is also a decent frame upgrade and we took some inspiration from it despite using a completely different approach and mechanical design principles.
 
 - The part you need to keep and reuse later:
 
-	- The entire X-axis and E-axis
+	- The entire X-axis and E-axis together
 
 	- The PSU
 
@@ -173,6 +206,7 @@ Make sure you have the following tools and things available：
 	- The LCD
 
 	- The Control Box
+
 
 ## 4. Build the Machine
 
@@ -430,7 +464,7 @@ Insert the M3x32mm screw(the longest one) into the Y tensioner.
 
 - The Y tensioner  should be installed as shown.
 
-![alt alternative text](./src/assets/Stage_2/Dual_Belt_Plus/DB14.JPG)
+![alt alternative text](./src/assets/Stage_2/Dual_Belt_Plus/DB14.jpg)
 
 
 ## 6. Replace the E motor (additional)
