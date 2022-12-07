@@ -464,7 +464,7 @@ Insert the M3x32mm screw(the longest one) into the Y tensioner.
 
 - The Y tensioner  should be installed as shown.
 
-![alt alternative text](./src/assets/Stage_2/Dual_Belt_Plus/DB14.jpg)
+![alt alternative text](./src/assets/Stage_2/db/DB14.jpg)
 
 
 ## 6. Replace the E motor (additional)
