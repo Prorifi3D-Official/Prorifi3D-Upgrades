@@ -124,6 +124,7 @@ Make sure you have the following tools and things available in the following 15 
 
 - If you see a 0.64mm separation pattern, that is MRR and your belt is way too tight! Untighten the belt. The ideal tension should be where the 2mm pattern caused by PE is gone and MRR is at its minimal. 
 
+- The recommended tension for Original i3 with Prorifi3D motors is around 74Hz.
 
 ## 4. Performance boost (optional) 
 
