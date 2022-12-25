@@ -492,7 +492,7 @@ Prorifi3D E motors have the same dimension as the original one. It is a direct r
 
 - Install the spool holder with flat cap M5x10 screws and hammer nuts.
 
-## 10. Performance boost (optional) 
+## 10. Performance boost 
 
 ### 10.1 Install the heat sinks
 
