@@ -500,7 +500,7 @@ Prorifi3D E motors have the same dimension as the original one. It is a direct r
 
 - For Y motors we recommend you install as shown:
 
-![alt alternative text](./src/assets/Performence_boost/Y_motor.jpg)
+![alt alternative text](./src/assets/Performence_boost/Y_motor_p3d.jpg)
 
 - For X motors we recommend you install as shown:
 
