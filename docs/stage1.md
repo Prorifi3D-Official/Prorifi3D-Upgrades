@@ -118,13 +118,10 @@ Make sure you have the following tools and things available in the following 15 
 
 ![alt alternative text](./src/assets/Belt_tension/Belt_tension.jpg)
 
-- Print the [Test block](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Test%20files), you may see there are vertical patterns with 2mm separations on the Y axis. This means your belt is too loose. 
-
-- Slowly tighten the belt, and print the test block. Until you see the 2mm separations disappear completely. This tension should be ideal, you can record the current belt frequency for later reference.
-
-- If you see a 0.64mm separation pattern, that is MRR and your belt is way too tight! Untighten the belt. The ideal tension should be where the 2mm pattern caused by PE is gone and MRR is at its minimal. 
-
 - The recommended tension for Original i3 with Prorifi3D motors is around <span style="color:red">84Hz for the Y axis</span> and <span style="color:blue">57Hz for the X axis</span>.
+
+- Print the [Test block](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Test%20files) to check your result.
+
 
 ## 4. Performance boost (optional) 
 
