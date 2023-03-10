@@ -122,6 +122,7 @@ Make sure you have the following tools and things available in the following 15 
 
 - Print the [Test block](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Test%20files) to check your result.
 
+- For more about VFA(MRR) please check [here](https://prorifi3d-knowledge-base.readthedocs.io/en/latest/How_to_solve_MRR/)
 
 ## 4. Performance boost (optional) 
 
