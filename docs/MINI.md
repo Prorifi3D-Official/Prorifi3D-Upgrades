@@ -30,7 +30,7 @@ Make sure you have the following tools and things available in the following 15 
 
 5. A small box for keeping the screws  
 
-6. Printed parts for the new Dual belt Plus (From [Our GitHub](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20i3%20series%20Upgrade%20Kits/MINI%20Upgrade/Dual%20Belt/STL))  Note that you will have to change the front and rear plate.
+6. Printed parts for the new Dual belt Plus (From [Our GitHub](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/tree/main/Original%20MINI%20series%20Upgrade%20Kits/MINI%20Upgrade)  Note that you will have to change the front and rear plate.
 
 7. Open the Original Prusa MINI kit assembly Guide for reference([https://help.prusa3d.com/guide/1-introduction_203948](https://help.prusa3d.com/guide/1-introduction_203948))
 
