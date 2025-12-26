@@ -19,3 +19,8 @@ hide:
 ## Motor Development Kit:
 
 - [How to solve MRR](./How_to_solve_MRR.md)
+
+
+## Prorifi3D P350 Kit:
+
+- [P350 assemble Guide](./P350_kit_guide.md)
