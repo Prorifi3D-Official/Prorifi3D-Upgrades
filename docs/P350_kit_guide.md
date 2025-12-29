@@ -226,3 +226,65 @@ Then tighten the M8 screws. Note that you should tighten both screws in turn to 
 - Tighten the M3 screws in turn. Note that these are T-Nuts. For T-nut, you should always make sure it is turned 90 degrees correctly before tightening.
 You can check this **[video](https://youtu.be/_kZTA5S2jWY?si=gpDFgc6bVI7_g-RN)** to see how it is done.
 
+### 2.4 Z-Drive
+#### 2.4.0 Pre-insert the nuts
+- Attach the M3 hex nuts to the screws and push the nuts until they reach the end. Do this for all Z-drive printed parts. Note that each Z-drive module has a mark on it. They are in pairs, so make sure we do not mix them.
+ ![alt alternative text](./src/assets/P350_guide/Z_drive1.PNG)
+
+ Insert the M5 nut and then use the **screw-pulling technique**. Screwed the nut in tightly to embed and then remove the screws
+ ![alt alternative text](./src/assets/P350_guide/Z_drive2.PNG)
+
+#### 2.4.1 Assembly 
+- First, put the GT2-188mm timing belt on the largest wheel on the gear module.e
+- Take the Z driver gear module and put it inside the slots. It should fit nicely. Note the orientation and then put the upper part as shown.
+ ![alt alternative text](./src/assets/P350_guide/Z_drive3.PNG)
+
+- Insert the long M3x50 screws as shown and tighten this module. Check if the GT-2 beltsares already on the gears. Tighten all screws properly. Rotate the gears inside. It should spin without any friction.
+ ![alt alternative text](./src/assets/P350_guide/Z_drive4.PNG)
+- Now it's time to attach the footpad. Use an M5 x 20 screw as shown.
+
+ ![alt alternative text](./src/assets/P350_guide/Z_drive5.PNG)
+
+Now we can prepare the motors. First, we need to insert **M3 nylon insert lock nuts** at the motor mount printed parts as shown. Attach the nut on the M3 screw first anduses it as a guide, then press the nut in with a 4mm hex tool. Remove the screw when you are done.
+
+ ![alt alternative text](./src/assets/P350_guide/Z_drive6.PNG)
+
+- Note that each motor mount is not the same. This mark shows the pairs it should have. This one, for example, can be matched with #0 or #2 Z-drivers.
+
+- Now put the driving pulley on the motor. Use the jig to help you locate the correct position. 
+ ![alt alternative text](./src/assets/P350_guide/Z_drive7.PNG)
+
+Then you should attach the motor mount to the motor as shown with M3 x 8 and M3 x 16 screws. Note that the motor wires should be facing upwards.
+
+![alt alternative text](./src/assets/P350_guide/Z_drive8.PNG)
+
+- The Z motors will be attached later. Do not install them at this point.
+
+- Repeat this for all four Z-drives; be careful with the matching.
+
+#### 2.4.2 Attach the Z-drive 
+- Now, put the frame upside down,n as we are going to attach the Z-drive module.
+
+- Pre-insert M5 spring nuts into the profiles at the bottom of the frame. You may use the Z-drive module as a jig to locate where these spring nuts should be.
+
+ ![alt alternative text](./src/assets/P350_guide/Z_drive11.PNG)
+- Fix the Z-drive module with M5 x 16 
+
+ ![alt alternative text](./src/assets/P350_guide/Z_drive12.PNG)
+
+Pass the Z belt as shown. Leaving enough length on both ends. 
+
+ ![alt alternative text](./src/assets/P350_guide/Z_drive13.PNG)
+
+
+## 3. Gantry 
+### 3.1 The main Gantry
+#### 3.1.0 Pre insert the nuts on printed parts
+- All gantry parts have marks on them, which should match each other.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main1.PNG)
+
+ - Insert M5 and M3 nuts on each of the gantry main parts (the four big ones)
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main2.PNG).
+
+
