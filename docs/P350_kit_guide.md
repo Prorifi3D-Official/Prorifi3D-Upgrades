@@ -287,4 +287,182 @@ Pass the Z belt as shown. Leaving enough length on both ends.
  - Insert M5 and M3 nuts on each of the gantry main parts (the four big ones)
  ![alt alternative text](./src/assets/P350_guide/Gantry_main2.PNG).
 
+- There are bumps at the end of the M5 nut holes. This is to make sure the M5 nut stuck nice and tightly. For M5 nuts, use the screw pulling technique to make sure they reach the end. Once you are done, they should not fall out due to gravity. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main3.PNG).
+
+
+- Do this for all four gantry main body parts. 
+
+#### 3.1.1 Prepare the Z belts
+- Take out the Z belts, put them aside for later use
+#### 3.1.2 Prepare for assembly
+- Find the 2020 profiles for the gantry; there are four of them. Place them as the picture shown. Make sure the marks match the locations. Note that the gantry has an asymmetrical design. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main6.PNG).
+
+#### 3.1.3 Install the Y rails 
+- First, attach the M3x8 screws and T-nuts to the rail as shown in the picture. Leave one empty and one placed. If the block or rubber insert blocks your operation. Slide them away and reinsert the rubber blocks at the end of the rail to prevent the block drop off. <span style="color:red">** Dropping out the sliding blocks may result a permenet damage to the linear rail!** <span>
+
+ ![alt alternative text](./src/assets/P350_guide/Frame_rail3.PNG).
+
+- Now place MGN9 rail guide jig at both ends to help you align the rail to the correct position.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main11.PNG).
+
+- Note that the rail should be centered, and it is slightly shorter than the profile. Neither end of the rail should stick out of the 2020 profile.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main12.PNG).
+
+- Tighten the T-nut properly. For T-nut, you should always make sure it is turned 90 degrees
+correctly before tightening.
+- You can check this **[video](https://youtu.be/_kZTA5S2jWY?si=gpDFgc6bVI7_g-RN)** to see how it is done.
+
+- Do this for both 401mm profiles.
+
+#### 3.1.3 Assemble the left part of the gantry (Part 1/0)
+- First, we need to insert the spring nut.
+- This isana M5 spring nut for 2020 profiles. Note that it is not symmetrical. Thus insert nuts can be a bit tricky.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main7.PNG).
+
+- You should insert the correct number of nuts on the profiles to secure them on the printed parts.
+For 2 nuts, we recommend that you insert them as shown below.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main8.PNG).
+
+ - For the situation with 3 Nuts, you should replace the middle one with a regular T-nut. Otherwise, there is not enough space. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main9.PNG).
+
+- The amount of nuts required is listed as shown. Follow the arrangement we have earlier.
+Proceed after you have all the nuts inserted.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main13.PNG).
+
+ - Once you are done, insert the 2020 profilesinton these locations. Use a hex to help you locate nuts so they can align with the holes on the printed parts. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main14.PNG).
+
+- Next, we need these printed parts labeled with 1/0
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main15.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main16.PNG).
+
+- Clip the Z belt to the bottom of Part 1. Note that the Z belt must match all slots on the parts. Use M5 x 14  to fix the bottom Z belt clip. Insert the M5 x 3050 Screw for later use.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main21.PNG).
+
+- Then install the upper part as shown. This M5 nut is for the M5 x 30 screw in the previous step.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main22.PNG). 
+
+ - Clip the Z belt to the bottom of Part 0. Note that the Z belt must match all slots on the parts. Use M5 x 14 to fix the bottom Z belt clip. Use M5 x 14 to fix the profile as shown.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main19.PNG).
+
+ - Use M5 x 14 to fix the upper part of the profile as shown. The most bottom scerw is M5 x 30.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main20.PNG).
+
+#### 3.1.4 Assemble the right part of the gantry (Part 2/3) 
+- The amount of nuts required is listed as shown. Follow the arrangement we have earlier.
+- Proceed after you have all the nuts inserted.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main23.PNG).
+
+ - Once you are done, insert the 2020 profiles into these locations. Use a hex to help you locate nuts so they can align with the holes on the printed parts. 
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main24.PNG).
+
+- Next, we need these printed parts labeled with 2/3
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main17.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main18.PNG).
+
+- Clip the Z belt to the bottom of Part 2. Note that the Z belt must match all slots on the parts. Use M5 x 14 to fix the bottom Z belt clip and the profile. Insert the M5 x 38 screw for later use.
+
+  ![alt alternative text](./src/assets/P350_guide/Gantry_main25.PNG).
+
+- Use M3 x 35 to fix the printed part. Use M5 x 45 in the previous step to fix the pulley mount.
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main26.PNG).
+
+- Use M5 x 14 and M5 x 30 to fix the belt clip and profile.  Note that the Z belt must match all slots on the parts. 
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main27.PNG).
+
+#### 3.1.5 Install the gantry part
+
+- As we finished the left and right parts of the gantry, it's now time to put them on the frame.
+- Put them into the frame and pass the Z-belt through the Z drive as shown.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main28.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main29.PNG).
+
+- Pass the Z-belt as shown. Do this for all Z belts.
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main30.PNG).
+
+- Now take the Z rail mount for part 0. Note that the rail mount has a label on it. The labels must match.
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main31.PNG).
+
+- Clip the Z-belt with the rail mount as shown, use M5 x 30 and M5 x 14 screw to tighten. The belt must match all slots on the gantry part. Once you are done, pull the belt to see if it's aligned.
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main32.PNG).
+
+- For position 1, we need to first install the Z belt clip as shown. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main33.PNG).
+
+- The rest is similar to the previous part. Note that the rail mount has a label on it. The labels must match.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main34.PNG).
+
+- Now take the Z rail mount for part 2. Note that the rail mount has a label on it. The labels must match.
+- Clip the Z-belt with the rail mount as shown, use M5 x 30 and M5 x 14 screw to tighten. The belt must match all slots on the gantry part. Once you are done, pull the belt to see if it's aligned.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main35.PNG).
+
+ Perform the same procedure for Part 3
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main36.PNG).
+
+ - Now install the rail mount on the rail sliding block using M3 x 14 screws.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main37.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main38.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main39.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main40.PNG).
+
+- Pre insert an M3 x 25 screw here.
+
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main43.PNG).
+
+- Insert an M3 nylon-locked nut here.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main41.PNG).
+
+ - Insert the pulley base, and slightly screw in the metal part of the nylon-locked nut.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main42.PNG).
+
+ - Pass the Z-belt to the pulley base as shown, use an M5 x 35 screw as the shaft.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main46.PNG).
+
+- Insert the hex tool into the holes to guide the pulley and pass the Z belt as shown. Pull out the hex tool and tighten the screw.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main44.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main45.PNG).
+ - Repeat these steps for all four pulley bases
+
+#### 3.1.6 Install the 375mm profile
+- Now take the shortest 2020 for the gantry. Pre-insert the spring nut and square nut as listed. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main47.PNG).
+
+- Insert the 375mm profile here as shown.
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main48.PNG).
+
+ -Use an M5 x 14 screw to tighten it.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main49.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
 
