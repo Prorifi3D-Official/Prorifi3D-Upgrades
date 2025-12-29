@@ -66,7 +66,7 @@ Metal Parts:
 
 - MGN12 450mm with MGN12H Blocks (4pcs) 
 
-### 2.0.2 Bolts and nuts
+#### 2.0.2 Bolts and nuts
 
 The bolts and nuts required in this section contain:
 
@@ -74,7 +74,7 @@ The bolts and nuts required in this section contain:
 
 - M5x30  Screw (16pcs)
 
-### 2.0.3 Tools
+#### 2.0.3 Tools
 
 The tools required in this section contain:
 
@@ -82,17 +82,17 @@ The tools required in this section contain:
 
 - Hex(4mm)
 
-### 2.0.4 Workspace requirements
+#### 2.0.4 Workspace requirements
 
 The recommended working space needs to be as flat as possible. A minimum 2m x 1m space is recommended for placing the parts and tools
 
-### 2.0.5 Aluminium:
+#### 2.0.5 Aluminium:
 
 Take out the extruded Aluminum from the Frame box carefully. 
 
-## 2.1 Bottom Frame
+### 2.1 Bottom Frame
 
-### 2.1.0 Assemble
+#### 2.1.0 Assemble
 
 Note that the key to a good and correctly built frame is flatness and alignment.
 
