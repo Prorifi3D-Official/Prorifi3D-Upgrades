@@ -460,14 +460,16 @@ Proceed after you have all the nuts inserted.
 #### 3.1.6 Install the 375mm profile
 - Now take the shortest 2020 for the gantry. Pre-insert the spring nut and square nut as listed. 
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main47.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main47.PNG).
 
 - Insert the 375mm profile here as shown.
+
 ![alt alternative text](./src/assets/P350_guide/Gantry_main48.PNG).
 
 - Use an M5 x 14 screw to tighten it.
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main49.PNG).
+
 ![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
 
 #### 3.1.7 Install the Rod mount.
