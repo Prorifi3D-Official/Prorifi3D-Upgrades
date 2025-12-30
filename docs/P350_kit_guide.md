@@ -131,12 +131,15 @@ The P350 features a modular design and comprises the following main modules:
 ![alt alternative text](./src/assets/P350_guide/Frame_main16.PNG)
 
 - Connect the printed part to the lower frame.Press the profile tightly against the desktop to tighten the corner printed parts, then loosen the M8 screws by about 90 degrees and pull out the fixture. Repeat this for all four corners. 
+
 - Remember to remove the fixture before you proceed to the next step.
 
 ![alt alternative text](./src/assets/P350_guide/Frame_main14.PNG)
 
 - Slide the vertical frame into the corner we just assembled. You should align the bottom frame with the profile end surface with a level table surface.
-Then tighten the M8 screws. Note that you should tighten both screws in turn to ensure stress distribution.
+
+- Then tighten the M8 screws. Note that you should tighten both screws in turn to ensure stress distribution.
+
 - Repeate this for all four corners.
 
 ![alt alternative text](./src/assets/P350_guide/Frame_main5.PNG)
@@ -419,39 +422,41 @@ Proceed after you have all the nuts inserted.
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main35.PNG).
 
- Perform the same procedure for Part 3
+ - Perform the same procedure for Part 3
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main36.PNG).
 
  - Now install the rail mount on the rail sliding block using M3 x 14 screws.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main37.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main38.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main39.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main40.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main37.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main38.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main39.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main40.PNG).
 
 - Pre insert an M3 x 25 screw here.
 
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main43.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main43.PNG).
 
 - Insert an M3 nylon-locked nut here.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main41.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main41.PNG).
 
- - Insert the pulley base, and slightly screw in the metal part of the nylon-locked nut.
+- Insert the pulley base, and slightly screw in the metal part of the nylon-locked nut.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main42.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main42.PNG).
 
- - Pass the Z-belt to the pulley base as shown, use an M5 x 35 screw as the shaft.
+- Pass the Z-belt to the pulley base as shown, use an M5 x 35 screw as the shaft.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main46.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main46.PNG).
 
 - Insert the hex tool into the holes to guide the pulley and pass the Z belt as shown. Pull out the hex tool and tighten the screw.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main44.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main45.PNG).
- - Repeat these steps for all four pulley bases
+![alt alternative text](./src/assets/P350_guide/Gantry_main44.PNG).
+
+![alt alternative text](./src/assets/P350_guide/Gantry_main45.PNG).
+
+- Repeat these steps for all four pulley bases
 
 #### 3.1.6 Install the 375mm profile
 - Now take the shortest 2020 for the gantry. Pre-insert the spring nut and square nut as listed. 
@@ -459,46 +464,46 @@ Proceed after you have all the nuts inserted.
  ![alt alternative text](./src/assets/P350_guide/Gantry_main47.PNG).
 
 - Insert the 375mm profile here as shown.
- ![alt alternative text](./src/assets/P350_guide/Gantry_main48.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main48.PNG).
 
- -Use an M5 x 14 screw to tighten it.
+- Use an M5 x 14 screw to tighten it.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main49.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main49.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
 
 #### 3.1.7 Install the Rod mount.
 - Pre-insert the nut on the rod mount as shown. 
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main51.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main51.PNG).
 
 - Take off the rubber block on the Y rail. Slice them to the back and install the two rod mounts as shown.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main52.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main53.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main54.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main55.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main52.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main53.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main54.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main55.PNG).
 
 - Insert the two carbon rods as shown. Tighten the screws. Slide them to the front. If you feel too much friction. Untighten the screws on the 0/3 rail mount to release the stress in the system. Then tighten them. Slide the rods again, and you should feel no friction.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main56.PNG).
- ![alt alternative text](./src/assets/P350_guide/Gantry_main57.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main56.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main57.PNG).
 
 #### 3.1.8 Install the front beam.
 - Take the 424mm profile, which is the longest, pre insert all nuts as shown.
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main59.PNG).
 
- - Install the front beam with M5 screws as shown. 
+- Install the front beam with M5 screws as shown. 
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main60.PNG).
 
 - Note that there is one decoration part.
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main61.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main61.PNG).
 
 - Slide the Y axis back and forth to make sure there is no extra friction. If there is, release the M5 x 14 on the front beam, slide the Y axis to the very front, and tighten the front beam. 
 
- ![alt alternative text](./src/assets/P350_guide/Gantry_main62.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main62.PNG).
 
 #### 3.1.9 Install Z motors.
 - Now we can install the Z motors. Insert the motors as shown. Note that there are labels on the motor mount; you should make sure they match the positions you are operating.
