@@ -198,7 +198,7 @@ Then tighten the M8 screws. Note that you should tighten both screws in turn to 
 
  ![alt alternative text](./src/assets/P350_guide/Frame_main10.PNG)
 
-### 2.3.2 Linear Rails
+#### 2.3.2 Linear Rails
 - Linear rails for the Z axis are very important for a 3D printer. We will use jigs and printed parts to ensure the alignment.
 - First, attach the M3x10 screw and T-nut to the rail support. This part can determine the position of the rails. 
 
@@ -323,7 +323,7 @@ correctly before tightening.
 
 - Do this for both 401mm profiles.
 
-#### 3.1.3 Assemble the left part of the gantry (Part 1/0)
+#### 3.1.4 Assemble the left part of the gantry (Part 1/0)
 - First, we need to insert the spring nut.
 - This isana M5 spring nut for 2020 profiles. Note that it is not symmetrical. Thus insert nuts can be a bit tricky.
 
@@ -368,7 +368,7 @@ Proceed after you have all the nuts inserted.
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main20.PNG).
 
-#### 3.1.4 Assemble the right part of the gantry (Part 2/3) 
+#### 3.1.5 Assemble the right part of the gantry (Part 2/3) 
 - The amount of nuts required is listed as shown. Follow the arrangement we have earlier.
 - Proceed after you have all the nuts inserted.
 
@@ -392,7 +392,7 @@ Proceed after you have all the nuts inserted.
 - Use M5 x 14 and M5 x 30 to fix the belt clip and profile.  Note that the Z belt must match all slots on the parts. 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main27.PNG).
 
-#### 3.1.5 Install the gantry part
+#### 3.1.6 Install the gantry part
 
 - As we finished the left and right parts of the gantry, it's now time to put them on the frame.
 - Put them into the frame and pass the Z-belt through the Z drive as shown.
@@ -457,7 +457,7 @@ Proceed after you have all the nuts inserted.
 
 - Repeat these steps for all four pulley bases
 
-#### 3.1.6 Install the 375mm profile
+#### 3.1.7 Install the 375mm profile
 - Now take the shortest 2020 for the gantry. Pre-insert the spring nut and square nut as listed. 
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main47.PNG).
@@ -472,7 +472,7 @@ Proceed after you have all the nuts inserted.
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
 
-#### 3.1.7 Install the Rod mount.
+#### 3.1.8 Install the Rod mount.
 - Pre-insert the nut on the rod mount as shown. 
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main51.PNG).
@@ -489,7 +489,7 @@ Proceed after you have all the nuts inserted.
 ![alt alternative text](./src/assets/P350_guide/Gantry_main56.PNG).
 ![alt alternative text](./src/assets/P350_guide/Gantry_main57.PNG).
 
-#### 3.1.8 Install the front beam.
+#### 3.1.9 Install the front beam.
 - Take the 424mm profile, which is the longest, pre insert all nuts as shown.
 
  ![alt alternative text](./src/assets/P350_guide/Gantry_main59.PNG).
@@ -506,7 +506,7 @@ Proceed after you have all the nuts inserted.
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main62.PNG).
 
-#### 3.1.9 Install Z motors.
+#### 3.1.10 Install Z motors.
 - Now we can install the Z motors. Insert the motors as shown. Note that there are labels on the motor mount; you should make sure they match the positions you are operating.
 
 ![alt alternative text](./src/assets/P350_guide/Z_motor1.PNG).
@@ -659,12 +659,12 @@ Proceed after you have all the nuts inserted.
 ![alt alternative text](./src/assets/P350_guide/Tool_head_module12.PNG).
 
 ### 4.2 Attach the tool head 
-#### 4.1.0 Assemble
+#### 4.2.0 Assemble
 - Now, release the screws on the X axis as shown and slide the carbon tube to the right.
 
 ![alt alternative text](./src/assets/P350_guide/XY_belt5.PNG).
 
-### 4.1.1 Attach the Tool head
+#### 4.2.1 Attach the Tool head
 - Slide the tool head on the carbon tube onthe  X axis. Tighten the screws.
 
 ![alt alternative text](./src/assets/P350_guide/XY_belt6.PNG).
