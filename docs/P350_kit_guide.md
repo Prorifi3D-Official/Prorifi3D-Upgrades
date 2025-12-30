@@ -453,7 +453,7 @@ Proceed after you have all the nuts inserted.
 
 ![alt alternative text](./src/assets/P350_guide/Gantry_main44.PNG).
 
-![alt alternative text](./src/assets/P350_guide/Gantry_main45.PNG).
+![alt alternative text](./src/assets/P350_guide/Gantry_main45.PNG)
 
 - Repeat these steps for all four pulley bases
 
