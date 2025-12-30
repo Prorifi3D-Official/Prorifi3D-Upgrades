@@ -466,3 +466,124 @@ Proceed after you have all the nuts inserted.
  ![alt alternative text](./src/assets/P350_guide/Gantry_main49.PNG).
  ![alt alternative text](./src/assets/P350_guide/Gantry_main50.PNG).
 
+#### 3.1.7 Install the Rod mount.
+- Pre-insert the nut on the rod mount as shown. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main51.PNG).
+
+- Take off the rubber block on the Y rail. Slice them to the back and install the two rod mounts as shown.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main52.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main53.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main54.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main55.PNG).
+
+- Insert the two carbon rods as shown. Tighten the screws. Slide them to the front. If you feel too much friction. Untighten the screws on the 0/3 rail mount to release the stress in the system. Then tighten them. Slide the rods again, and you should feel no friction.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main56.PNG).
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main57.PNG).
+
+#### 3.1.8 Install the front beam.
+- Take the 424mm profile, which is the longest, pre insert all nuts as shown.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main59.PNG).
+
+ - Install the front beam with M5 screws as shown. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main60.PNG).
+
+- Note that there is one decoration part.
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main61.PNG).
+
+- Slide the Y axis back and forth to make sure there is no extra friction. If there is, release the M5 x 14 on the front beam, slide the Y axis to the very front, and tighten the front beam. 
+
+ ![alt alternative text](./src/assets/P350_guide/Gantry_main62.PNG).
+
+#### 3.1.9 Install Z motors.
+- Now we can install the Z motors. Insert the motors as shown. Note that there are labels on the motor mount; you should make sure they match the positions you are operating.
+
+![alt alternative text](./src/assets/P350_guide/Z_motor1.PNG).
+
+
+![alt alternative text](./src/assets/P350_guide/Z_motor2.PNG).
+
+- Now insert an M3 x 20 screw at these locations.
+
+![alt alternative text](./src/assets/P350_guide/Z_motor3.PNG).
+
+- Fully tighten the screw to make sure the motor belt is reaching the ideal tension. There should be no gaps here.
+
+## 4. Tool Head
+
+### 4.1 Assemble
+
+#### 4.1.1 Hot end
+- Take the hot end module and install it from below. Note the orientation.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble1.PNG).
+
+- The hot end is mounted with one pair of diagonally placed screws. For default V6 use M2.5x14. Make sure you tightened them properly. 
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble2.PNG).
+
+- The hot end wires should come out from the gap here.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble10.PNG).
+
+#### 4.1.2 Prepare the Fans 
+- First, we need to pre-insert nuts in the wind tunnels.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble3.PNG).
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble4.PNG).
+
+- Now we need to prepare the blower fan. Take out the 5050 fan cover. There are two clips on the fan. It should come off without too much trouble.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble5.PNG).
+
+- Now insert the rest of the 5050 fan into the printed parts as shown. 
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble6.PNG).
+
+#### 4.1.4 Prepare the belts
+- Pre-insert the M3 nylon nut here before we install the fan.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module1.PNG).
+
+- Pre-insert the timing belt here.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module5.PNG).
+
+- Then slide in the left belt support as shown.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module10.PNG).
+
+- Tighten the structure using M3 x 45. The belt should point out as shown.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module11.PNG).
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module5.PNG).
+
+- The other belt requires an extra belt support. Insert the GT2 belt as shown. The belt comes out of the mount as the blue arrow.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module6.PNG).
+
+- The belt mount can be fitted in the slot of the tool head, as shown.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module7.PNG).
+
+- Then slide in the belt support to fix the belt.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module8.PNG).
+
+- Tighten the structure using M3 x 45. 
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module9.PNG).
+
+#### 4.1.5 Fan install
+
+- Now it's time to install the heat sink fan. Place the part as shown and use M3 x 18 to tighten the fan. Note that the fan wires should come from the top of the fan.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module2.PNG).
+
+
