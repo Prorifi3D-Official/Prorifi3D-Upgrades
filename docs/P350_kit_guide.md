@@ -435,7 +435,6 @@ Proceed after you have all the nuts inserted.
 
 - Pre insert an M3 x 25 screw here.
 
-
 ![alt alternative text](./src/assets/P350_guide/Gantry_main43.PNG).
 
 - Insert an M3 nylon-locked nut here.
