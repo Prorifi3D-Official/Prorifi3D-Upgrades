@@ -586,4 +586,131 @@ Proceed after you have all the nuts inserted.
 
 ![alt alternative text](./src/assets/P350_guide/Tool_head_module2.PNG).
 
+- Take the blowing fan duct and mount it at the back. Attach them with M3 x 16 screws. Make sure the fan duct can slide up and down.
+![alt alternative text](./src/assets/P350_guide/Tool_head_module3.PNG).
+
+- There are two screws below; use M3 x 14 screws. Use a 5 mm washer if you use the default nozzle set (E3D V6), then tighten them to make sure the fan duct is at the correct location.  Once you are done, tighten the screws at the back to fully fix the fan duct.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module4.PNG).
+
+#### 4.1.6 Final assembly
+- Install the drag chain mount using M3 x14 screws.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_assemble8.PNG).
+
+#### 4.1.7 Extruder
+- For P350, you can use some out-of-the-shelf extruders, such as [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder).
+
+- Before we assemble the extruder, we need to prepare the printed parts and gears first.
+
+- First, we need to put the extruder gear with set screws on the shaft. Tighten the set screw.
+
+- Pre-insert M3 hex nut on printed parts at these locations.
+
+![alt alternative text](./src/assets/P350_guide/Extruder3.PNG).
+![alt alternative text](./src/assets/P350_guide/Extruder2.PNG).
+![alt alternative text](./src/assets/P350_guide/Extruder1.PNG).
+
+- Put the ball bearing on the end with the large gears, and put the gear set into the slots as shown.        
+
+![alt alternative text](./src/assets/P350_guide/Extruder4.PNG).
+
+- Assemble the printed parts as shown.
+
+![alt alternative text](./src/assets/P350_guide/Extruder6.PNG).
+
+- Use M3 x 6 screws to fix the printed parts as shown.
+
+![alt alternative text](./src/assets/P350_guide/Extruder5.PNG).
+
+- Press Insert the other gear with the shaft here. 
+
+![alt alternative text](./src/assets/P350_guide/Extruder7.PNG).
+
+-  Insert the shaft and assemble the rest of the extruder as shown.
+
+![alt alternative text](./src/assets/P350_guide/Extruder8.PNG).
+
+- Use the long M3 screws to fix the printed part.
+
+![alt alternative text](./src/assets/P350_guide/Extruder10.PNG).
+
+- Put the spring on the nob and insert the nob as shown.
+
+![alt alternative text](./src/assets/P350_guide/Extruder9.PNG).
+
+- Install the extruder motor as shown.
+
+![alt alternative text](./src/assets/P350_guide/Extruder11.PNG).
+
+- Adjust the extruder motor to make sure the gears are meshed properly.
+
+![alt alternative text](./src/assets/P350_guide/Extruder12.PNG).
+
+- Insert PTFE tube here, note the tube have chamfered. The chamfer should point upwards.
+- Install the extruder with an M3 x 15 screw as shown. Adjust the slider block to make sure the screws are aligned.
+
+![alt alternative text](./src/assets/P350_guide/Tool_head_module12.PNG).
+
+### 4.2 Attach the tool head 
+#### 4.1.0 Assemble
+- Now, release the screws on the X axis as shown and slide the carbon tube to the right.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt5.PNG).
+
+### 4.1.1 Attach the Tool head
+- Slide the tool head on the carbon tube onthe  X axis. Tighten the screws.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt6.PNG).
+
+- Slide the tool head left and right, making sure it moves smoothly.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt7.PNG).
+
+### 4.3 XY Belts
+#### 4.3.0 Assemble
+- Pre-insert the bearings with the pin(4.95 x 20) at the following positions. You can use a hex key as a pin guide to help you align the bearings. 
+
+![alt alternative text](./src/assets/P350_guide/XY_belt16.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt17.PNG).
+
+- For the front bearings the things will be a little different. Find these printed parts and pre-insert the M3 nylon nut.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt1.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt2.PNG).
+
+- Then use M3 x 50 screws to fix the bearings as shown. Note the orientation.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt3.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt4.PNG).
+
+#### 4.3.1 Mount the motors
+- First, take the AB motor and use a jig to mount the pulley in the correct place. Tighten the screw. Make sure you tighten all set screws.
+![alt alternative text](./src/assets/P350_guide/XY_belt8.PNG).
+
+- Assemble the motors use M3 x 8 screw as shown. Note the orientation, the wires should come towards the inside. (shown by the blue arrow)
+
+![alt alternative text](./src/assets/P350_guide/XY_belt9.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt10.PNG).
+
+#### 4.3.2 XY belt 
+- Now, let us do the belts. Since we pre-insert the belts on the tool head, the rest will be pretty easy.
+
+- Warp the belts as shown.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt11.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt12.PNG).
+
+- Take the belt clip, insert the M3 nylon nut as shown. The belt should fully match the teeth on the clip.
+![alt alternative text](./src/assets/P350_guide/XY_belt13.PNG).
+
+- Insert the Belt clip as shown. Note the direction.
+- Use an M3 x 60 screw to apply tension on the belt as shown. Do not over-tighten the belts.
+
+![alt alternative text](./src/assets/P350_guide/XY_belt14.PNG).
+![alt alternative text](./src/assets/P350_guide/XY_belt15.PNG).
+
+#### 4.3.3 Wire guide assembly
+- Pre insert Nylon nut on the hex slots and hang the T-nut (3030 M5) with M5 x 10 screws.
+
 
