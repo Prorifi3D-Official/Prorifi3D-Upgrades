@@ -829,13 +829,13 @@ Move the Z axis up and down to make sure the wire guide does not jam or having s
 - Note that wires are color-coded with the IEC 60446 standard. 
 
 - For high-voltage wires:
-- The <span style="color:brown">Brown</span> wires are <span style="color:brown">Live</span> wires
-- The Blue wires are Neutral wires
-- The Yellow-Green wires are Ground wires.
+- The **<span style="color:brown">Brown</span>** wires are **<span style="color:brown">Live</span>** wires
+- The **<span style="color:blue">Blue</span>** wires are **<span style="color:blue">Neutral</span>** wires
+- The **<span style="color:yellow">Yellow</span>**-**<span style="color:green">Green</span>** wires are **<span style="color:yellow">Gro</span>****<span style="color:green">und</span>** wires.
 
 - For low voltage part:
-- Red wires are positive.
-- Black wires are negative.
+- **<span style="color:red">Red</span>** wires are **<span style="color:red">positive</span>**.
+- **Black** wires are **negative**.
 
 - For signal wires:
 - Note these wires are fragile; operate with caution.
@@ -843,4 +843,243 @@ Move the Z axis up and down to make sure the wire guide does not jam or having s
 ### 6.2 Assemble the power socket
 
 - Pre-insert the short wires in the power socket as shown(Double arrow). Note the color coding. Then install the long wires (Single arrow pointing outwards).
+
+![alt alternative text](./src/assets/P350_guide/Power_socket0.PNG).
+
+- Insert the M3x12 screws and then hang the T-nut (3030 M3) on the printed parts.
+
+![alt alternative text](./src/assets/P350_guide/Power_socket1.PNG).
+
+- Insert the power socket into the printed parts as shown. Pass the wires through the printed part for later use.
+
+![alt alternative text](./src/assets/P350_guide/Power_socket2.PNG).
+
+- Fix the power socket on the frame as shown. The power socket should be pushed against the right rear z motor modules.
+
+![alt alternative text](./src/assets/P350_guide/Power_socket3.PNG).
+
+### 6.3 The electronics
+- Now it is time to do the electronics. First, we flip the printer, let the front face upwards.
+- Note the round hole location.
+
+![alt alternative text](./src/assets/P350_guide/Power_socket1.PNG).
+
+#### 6.3.0 Install the printed parts
+- First, we need to install the support for electronics. Use M3x12 screws and hang the T-nut (2020 M3) on these printed parts. The bottom-most screw should be M3x18.
+
+![alt alternative text](./src/assets/P350_guide/Electronics1.PNG).
+
+#### 6.3.0 Install the printed parts
+- First, we need to install the support for electronics. Use M3x12 screws and hang the T-nut (2020 M3) on these printed parts. The bottom-most screw should be M3x18.
+
+![alt alternative text](./src/assets/P350_guide/Electronics2.PNG).
+
+- Install the Control board support, Pi4 support, and ESP32 support in these locations as shown. Do not fully tighten the screws yet.
+
+![alt alternative text](./src/assets/P350_guide/Electronics3.PNG).
+
+- Now take the power mount and the SSR mount. Use M3x18 screws and hang the T-nut (2020 M3) on these printed parts. The SSR module should also be included. Note that the 24V side must be facing upward.
+![alt alternative text](./src/assets/P350_guide/Electronics4.PNG).
+
+- Use an M3x12 screw and hang the T-nut (2020 M3). Note the side screw should hangthe  T-nut(3030 M3)
+
+![alt alternative text](./src/assets/P350_guide/Electronics5.PNG).
+
+- Then install the power mount as shown. Note that the printed part also acts as a jig; it should be directly against each other. The power mount should be against the bottom profile. Tighten the screw on the power relay to fix the printed part.
+![alt alternative text](./src/assets/P350_guide/Electronics6.PNG).
+
+#### 6.3.1 Prepare the control board
+
+- Before we mount the control board on the printer. We will need to install the motor driver first. In this kit, we use Fly-D8, which has the following config. 
+
+![alt alternative text](./src/assets/P350_guide/PCB1.PNG).
+
+- Since we usethe  TMC2209 driver, we will use the UART mode. Put jumpers on these locations with green marks first.
+
+![alt alternative text](./src/assets/P350_guide/PCB2.PNG).
+
+- Then, for X and Y motor,s we need sensorless homing. So we need to install jumpers on these Orange locations.
+
+![alt alternative text](./src/assets/P350_guide/PCB3.PNG).
+
+- Check the jumpers before you install the driver.
+
+- Then we need to put the jumpers for the fans. We use only 24V fans, so we put jumpers at these locations marked with red marks.
+
+![alt alternative text](./src/assets/P350_guide/PCB4.PNG).
+
+- Then we can now prepare the TMC2209 drivers. There are 7 of them
+- Stick the heat sink on the TMC2209 first
+
+![alt alternative text](./src/assets/P350_guide/PCB5.PNG).
+
+- Note the orientation. Install the drivers at the locations as shown. The leftmost socket is empty. Note the pin orientation. All pins on the driver should be connected.
+![alt alternative text](./src/assets/P350_guide/PCB6.PNG).
+
+#### 6.3.2 Mount the control board
+
+- Install the control board on the printed support using M3x6 screws. It should fit just right. If not, slightly loosen the screws and adjust the support.
+
+![alt alternative text](./src/assets/P350_guide/Electronics8.PNG).
+
+#### 6.3.3 Prepare the Pi4
+- Raspberry Pi 4 is a powerful platform for all sorts of applications. In our kit, it serves as the Klipper Host.
+- The powerful processing capabilities of the Pi4 also enable us to add many other features to the machine in the future.
+
+- Due to the high performance, it is important to install the heat sink on Pi4. The kit contains ready-to-work heat sinks; we only need the upper half(the side with sockets)
+- Connect the FPC/FFC as shown. Note the orientation, the blue stripe should face out of the board.
+
+![alt alternative text](./src/assets/P350_guide/PCB14.PNG).
+
+- Take the Heat sink for Pi and pass the FPC/FFC wires through the notch.
+
+- Take the Pi mounting support and install the M3x10 screw in these locations. 
+
+![alt alternative text](./src/assets/P350_guide/Electronics9.PNG).
+
+#### 6.3.4 Install the Pi4
+- Use M3x10 screws to install Pi4 here.
+
+![alt alternative text](./src/assets/P350_guide/Electronics10.PNG).
+
+#### 6.3.5 Install the ESP32
+- Use M3x6 screws to install the ESP32. Note that the other two holes are reserved for later use.
+
+![alt alternative text](./src/assets/P350_guide/Electronics11.PNG).
+
+#### 6.3.6 Install the power module
+- The power module should be clamped by the two screws as shown. There are notches on the power module that will just fit these two screws, as shown.
+
+![alt alternative text](./src/assets/P350_guide/Electronics12.PNG).
+
+### 6.4 Assemble the screen
+
+- Connect the screen wire. 
+
+![alt alternative text](./src/assets/P350_guide/Screen1.PNG).
+
+- Take the screen cover and insert the 5 inch LCD screen. Note the screen has buttons; they should fit the printed press buttons. Then take the back panel and cover the screen. 
+
+![alt alternative text](./src/assets/P350_guide/Screen2.PNG).
+
+- Use M2 x 6 screws to fix the back panel.
+
+![alt alternative text](./src/assets/P350_guide/Screen3.PNG).
+
+- Use an M5 x 25 screw as a pivot, and use an M5 nylon nut on the other side to fix the screw.
+- Do not fully tighten the screw. Make sure you can move the screen mount. 
+- Insert M5 x 10 screws in the screen mount and hang the T-nut (M5 3030).
+
+![alt alternative text](./src/assets/P350_guide/Screen4.PNG).
+
+- Fix the screen mount on the bottom frame as shown. Adjust the screen so that it is in the middle.
+
+![alt alternative text](./src/assets/P350_guide/Screen5.PNG).
+
+### 6.5 Wiring
+- For P350, we use Fly-D8 as the control board. You can check their official website if you need to **[DIY](https://mellow.klipper.cn/docs/ProductDoc/MainBoard/fly-d/fly-d8-f407/wiring/)**
+
+- For our kit, please follow the instructions below:
+
+#### 6.5.0 Z Motor wires
+
+- Connect motor wires on Z motors. Note that we will need to connect the Z motors in order.
+
+![alt alternative text](./src/assets/P350_guide/PCB7.PNG).
+
+#### 6.5.1 Heated Bed wires
+- Collect the heated bed wires we inserted in section 4. Connect the Heated bed wires as shown
+
+![alt alternative text](./src/assets/P350_guide/PCB8.PNG).
+
+#### 6.5.2 Tool head and Gantry wires
+- Collect the tool head wires from the square hole and connect them as shown.
+
+![alt alternative text](./src/assets/P350_guide/PCB9.PNG).
+
+#### 6.5.3 Power wires
+- Connect the power wires from the socket as shown. 
+
+![alt alternative text](./src/assets/P350_guide/PCB13.PNG).
+
+- Then connect the power wires as shown. 
+![alt alternative text](./src/assets/P350_guide/PCB10.PNG).
+
+#### 6.5.4 Pi4 wires
+- Take a USB Type-C and connect to the location shown.
+
+![alt alternative text](./src/assets/P350_guide/PCB12.PNG).
+
+#### 6.5.5 ESP32 Wires
+- Take the yellow-black wire. Connect the wire to the main board as shown.        
+
+![alt alternative text](./src/assets/P350_guide/PCB11.PNG).
+
+#### 6.5.6 Electronic cooling Fan wires
+
+- Note that motor drivers require active cooling. So we have to install fans. Use M3x12 screws to install the 4010 fans (with short wires) on the Main cover as shown. Note the fan wires go upward.
+
+![alt alternative text](./src/assets/P350_guide/E_covers1.PNG).
+
+- Connect these fans with a 3-in-1 adapter
+- Connect the adapter as shown
+
+![alt alternative text](./src/assets/P350_guide/PCB16.PNG).
+
+#### 6.5.7 Check and sort the wires
+- Please check the wire config and make sure it is correct. Especially the high voltage part!
+- Then you should use ziptile to sort and fix the wires. There are many ziptile locations for you to use on the printed parts. They look like this:
+
+![alt alternative text](./src/assets/P350_guide/E_covers2.PNG).
+
+#### 6.5.8 Install cover
+
+- Install the power wire cover with M3x12 screws as shown; this should hide all high-voltage wires from the socket to the power module.
+
+![alt alternative text](./src/assets/P350_guide/E_covers3.PNG).
+
+- Use M3x 16 screws and hang the T--Nut(3030 M3) on it.
+
+![alt alternative text](./src/assets/P350_guide/E_covers4.PNG).
+
+- Install the power module cover as shown. Use M3x12 screws to fix the cover on the printed support.
+
+![alt alternative text](./src/assets/P350_guide/E_covers5.PNG).
+
+- Install the ESP cover as shown. Use M3x12 screws
+
+![alt alternative text](./src/assets/P350_guide/E_covers6.PNG).
+
+- Finally Install the Main cover with fans using M3x6 screws. The main cover should fit the slots on the electronic support. The gap on top is for the screen wire.
+
+![alt alternative text](./src/assets/P350_guide/E_covers7.PNG).
+
+- The final result should look like this.
+
+![alt alternative text](./src/assets/P350_guide/E_covers8.PNG).
+
+
+## 7.Firmware
+
+- Now we can flash the Firmware. 
+
+### 7.1 The Pi4 
+
+- Download the System image via the following link: ()
+
+- Take the SD card and follow the instructions on the Raspberry Pi official website(link) and flash the System image we just downloaded.
+
+### 7.2 The Fly-D8
+
+- Download the System image via the following link: ()
+
+- Follow the instructions via this link to flash the image to your SD card:[Link](https://mellow.klipper.cn/en/docs/category/d8-f407%E5%9B%BA%E4%BB%B6%E7%BC%96%E8%AF%91%E4%B8%8E%E7%83%A7%E5%BD%95/?persistLocale=true)
+
+### 7.3 Printer configuration
+
+- We recommend you copy and paste the default printer configuration first. To get the configuration, please click here: (git链接)
+
+
+
+
 
