@@ -719,4 +719,128 @@ Proceed after you have all the nuts inserted.
 #### 4.3.3 Wire guide assembly
 - Pre insert Nylon nut on the hex slots and hang the T-nut (3030 M5) with M5 x 10 screws.
 
+![alt alternative text](./src/assets/P350_guide/Wire_guide2.PNG).
+
+- Pre insert Nylon nut on the hex slots and hang the T-nut (2020 M3) with an M3 x 10 screw.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide1.PNG).
+
+- Install the mount as shown, do not fully tighten them yet. We will adjust the position later.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide4.PNG).
+
+- Install the chain mount as shown, do not fully tighten it yet. We will adjust the position later.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide3.PNG).
+
+- Use M3 x 10 screws to fix the truck chain. The tool head has a place for the chain. Clip the chain on the tool head. The wire slot should be facing outwards.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide5.PNG).
+![alt alternative text](./src/assets/P350_guide/Wire_guide6.PNG).
+
+- Insert M3 x 10 screws and hang the T-nut (2020 M3) on the motor wire covers.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide7.PNG).
+
+- Install the motor wire cover, making sure the motor wires are fully hidden inside.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide8.PNG).
+
+- Take the large chain, take off the last two sections, and install them in reverse. 
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide9.PNG).
+
+- Install the large chain as shown. Note that the reversely installed part should be mounted on the gantry.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide10.PNG).
+
+#### 4.3.3 Wires
+- The front fan wires should be pressed into the slot on the tool head, as shown.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide11.PNG).
+
+- The turbo fan wire should go through the wire guide as shown.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide12.PNG).
+
+- All wires on the tool head should fit in the chain. Use a zip tie to make sure the wires do not fall out during movements. 
+
+- Sort the wires and pass them through the large chain. These wires should pass through the square hole on the bottom plate.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide14.PNG).
+
+- Sort all the wires and cover them as shown. This wire cover can be clip on the wire guide mount directly.
+
+![alt alternative text](./src/assets/P350_guide/Wire_guide13.PNG).
+
+#### 4.3.4 Check
+
+Move the tool head in X and Y full range to make sure the wire guide is ok.
+Move the Z axis up and down to make sure the wire guide does not jam or having sudden move.
+
+## 5. Heated Bed
+
+### 5.1 Assemble the structural support
+- Prepare the profiles. Use M5 x 16 screws to fix the corner fix on the profiles as shown. Do this for both 506mm 2020 profiles. 
+- Then insert the M5 x 10 screw and hang the T-nut (3030 M5) for later use.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed1.PNG).
+
+- Put the bottom plate on the frame. It should fit nicely.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed2.PNG).
+
+- Fix the 2020 profiles on the bottom frame. You should use jigs to help you find the correct locations. Do not fully tighten the screws yet, as we may do some adjustments later.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed3.PNG).
+
+- Pre-insert the 2020 M3 spring nut into the 2020 frame for later use.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed4.PNG).
+
+### 5.2 Prepare the heated bed
+- Now it is time to prepare the heated bed.
+
+- Stick the heating element on the aluminium heated bed. Note the orientation. Make sure it is in the center of the heated bed.
+
+- Stick the magnetic plate on the heated bed as shown. Note the orientation. The holes should match the ones on the aluminium plate.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed5.PNG).
+![alt alternative text](./src/assets/P350_guide/HeatBed6.PNG).
+
+- Put all wires of the heated bed through the round hole on the bottom plate as shown.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed7.PNG).
+
+- Use M3 screws to fix the heated bed. Note that the heated bed is supported by these M4 nuts. Slightly tighten the screws.
+
+![alt alternative text](./src/assets/P350_guide/HeatBed8.PNG).
+
+- Adjust the position of the heated bed with jigs. Tighten all the screws.
+
+- Put the spring steel sheet on the heated bed. 
+
+### 5.3 Check
+- Use the jig to check if the bed is in position. Once you are done, make sure the heated bed is fixed and can not move. 
+
+## 6. Electronics
+
+### 6.1 Prepare the wires
+- Note that wires are color-coded with the IEC 60446 standard. 
+
+- For high-voltage wires:
+- The <span style="color:brown">Brown</span> wires are <span style="color:brown">Live</span> wires
+- The Blue wires are Neutral wires
+- The Yellow-Green wires are Ground wires.
+
+- For low voltage part:
+- Red wires are positive.
+- Black wires are negative.
+
+- For signal wires:
+- Note these wires are fragile; operate with caution.
+
+### 6.2 Assemble the power socket
+
+- Pre-insert the short wires in the power socket as shown(Double arrow). Note the color coding. Then install the long wires (Single arrow pointing outwards).
 
