@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Printer Test Bench Guide
 
 **Version:** R0.3
