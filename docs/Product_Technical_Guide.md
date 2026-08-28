@@ -23,3 +23,7 @@ hide:
 ## Prorifi3D P350 Kit:
 
 - [P350 assemble Guide](./P350_kit_guide.md)
+
+## Printer Test Bench:
+
+- [Printer Test Bench Guide](./Test_Bench_Guide.md)

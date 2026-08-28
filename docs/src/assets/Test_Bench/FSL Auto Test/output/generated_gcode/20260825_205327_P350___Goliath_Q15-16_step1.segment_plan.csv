@@ -1,0 +1,3 @@
+﻿segment_id,q,E_mm,volume_mm3,feedrate_mm_min,planned_start_s,planned_end_s,planned_duration_s,gcode_line_index,repeat_index,repeat_count,gap_after_ms,gap_flow_Q,gap_E_mm,gap_volume_mm3
+1,15.0,200.0,481.056375080937,374.17651926910906,0.0,32.0704250053958,32.0704250053958,17,1,1,0,0.0,0.0,0.0
+2,16.0,200.0,481.056375080937,399.12162055371635,32.0704250053958,62.136448447954365,30.066023442558564,19,1,1,0,0.0,0.0,0.0

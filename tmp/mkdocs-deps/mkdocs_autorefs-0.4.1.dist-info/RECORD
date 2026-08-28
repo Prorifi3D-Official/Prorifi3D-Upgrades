@@ -1,0 +1,14 @@
+mkdocs_autorefs-0.4.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+mkdocs_autorefs-0.4.1.dist-info/LICENSE,sha256=xmCVls7Pzn5h3Ze0iqMkoIc4YJb-GrjtrqNZ1eLwUhg,786
+mkdocs_autorefs-0.4.1.dist-info/METADATA,sha256=j0DfpWZIH0daVPYVH1s8HskksJAPgymk5dfRD4NtftA,4569
+mkdocs_autorefs-0.4.1.dist-info/RECORD,,
+mkdocs_autorefs-0.4.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_autorefs-0.4.1.dist-info/WHEEL,sha256=H68pkwFXYiPcYQggWGQrteqYmGEtEbAhNbB9JPX9hZ4,88
+mkdocs_autorefs-0.4.1.dist-info/entry_points.txt,sha256=AQOcfpaHY_FfBUsDy0OubDSonGzkIfBT84aJJ5hSoGY,65
+mkdocs_autorefs/__init__.py,sha256=kIDc37jDTgz5pyphyQZwsJak8X1Smaq1g2hSijRYXTA,76
+mkdocs_autorefs/__pycache__/__init__.cpython-312.pyc,,
+mkdocs_autorefs/__pycache__/plugin.cpython-312.pyc,,
+mkdocs_autorefs/__pycache__/references.cpython-312.pyc,,
+mkdocs_autorefs/plugin.py,sha256=VjmGKRp04w_AJZNTYiXFLP7onci0I7PaAIcYQnU3Sp8,8784
+mkdocs_autorefs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_autorefs/references.py,sha256=UH4VH_hU9aE_0WhpNSBkaOZ4KxdGJhhtdV8zTDOF1Gs,7802

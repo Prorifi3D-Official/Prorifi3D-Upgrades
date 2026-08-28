@@ -1,0 +1,50 @@
+{
+  "hotend_profile": "P350 + Goliath",
+  "material": "PLA",
+  "target_temperature": 230.0,
+  "start_Q": 15.0,
+  "end_Q": 16.0,
+  "step_Q": 1.0,
+  "force_safety_limit_g": 3000.0,
+  "sample_period_s": 0.2,
+  "extrusions_per_Q": 1,
+  "gap_duration_ms": 0,
+  "gap_flow_Q": 0.0,
+  "post_extrusion_record_s": 5.0,
+  "extrusion_rules": [
+    {
+      "q_min": 0.0,
+      "q_max": 15.0,
+      "E_mm": 150.0
+    },
+    {
+      "q_min": 15.0,
+      "q_max": 20.0,
+      "E_mm": 200.0
+    },
+    {
+      "q_min": 20.0,
+      "q_max": 30.0,
+      "E_mm": 250.0
+    },
+    {
+      "q_min": 30.0,
+      "q_max": 40.0,
+      "E_mm": 300.0
+    },
+    {
+      "q_min": 40.0,
+      "q_max": 50.0,
+      "E_mm": 350.0
+    },
+    {
+      "q_min": 50.0,
+      "q_max": null,
+      "E_mm": 400.0
+    }
+  ],
+  "filament_diameter_mm": 1.75,
+  "plan_total_time_s": 62.136448447954365,
+  "plan_total_volume_mm3": 962.112750161874,
+  "execution_model": "generated_gcode_standard_marlin_streaming_wait_ok_raw_dual_clock_logging"
+}

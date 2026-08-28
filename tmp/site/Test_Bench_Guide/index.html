@@ -1,0 +1,1173 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../src/icons/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Printer Test Bench Guide - Prorifi3D Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../stylesheets/css.css">
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Prorifi3D Knowledge Base" class="md-header__button md-logo" aria-label="Prorifi3D Knowledge Base" data-md-component="logo">
+      
+  <img src="../src/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Prorifi3D Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Printer Test Bench Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Prorifi3D on GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Product_Technical_Guide/" class="md-tabs__link md-tabs__link--active">
+        Product Technical Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../General_Technical_Guide/" class="md-tabs__link">
+        General Technical Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../contact/" class="md-tabs__link">
+      Contact us
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Prorifi3D Knowledge Base" class="md-nav__button md-logo" aria-label="Prorifi3D Knowledge Base" data-md-component="logo">
+      
+  <img src="../src/icons/logo.png" alt="logo">
+
+    </a>
+    Prorifi3D Knowledge Base
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Prorifi3D on GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Product Technical Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Product Technical Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Product Technical Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Product_Technical_Guide/" class="md-nav__link">
+        Product Technical Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage1/" class="md-nav__link">
+        Stage 1 Motor Upgrades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage2/" class="md-nav__link">
+        Stage 2 Frame Upgrade & Dual Belt Plus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How_to_solve_MRR/" class="md-nav__link">
+        Motor Development Kit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Printer Test Bench Guide
+      </a>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          General Technical Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="General Technical Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          General Technical Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../General_Technical_Guide/" class="md-nav__link">
+        General Technical Guide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How_to_solve_MRR/" class="md-nav__link">
+        How to solve MRR
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact/" class="md-nav__link">
+        Contact us
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades/edit/master/docs/Test_Bench_Guide.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="guide">测试台Guide</h1>
+<h1 id="guide_1">测试台 Guide</h1>
+<h1 id="printer-test-bench-guide">Printer Test Bench Guide</h1>
+<p><strong>Version:</strong> R0.3 Draft</p>
+<p><img alt="Assembled Printer Test Bench" src="../src/assets/Test_Bench/assembled-printer-test-bench.png" /></p>
+<blockquote>
+<p><strong>Document purpose:</strong> This guide covers the assembly, bring-up, calibration, and use of the Printer Test Bench. The bench uses a <strong>P350 Basic Tool Head</strong> as the standard test module.</p>
+</blockquote>
+<hr />
+<h2 id="contents">Contents</h2>
+<ul>
+<li>
+<p><a href="#0-before-you-start">0. Before You Start</a></p>
+<ul>
+<li>
+<p><a href="#01-package-scope-included-and-customer-supplied-components">0.1 Package Scope: Included and Customer-Supplied Components</a></p>
+</li>
+<li>
+<p><a href="#02-intended-use-and-test-scope">0.2 Intended Use and Test Scope</a></p>
+</li>
+<li>
+<p><a href="#03-estimated-time-and-difficulty">0.3 Estimated Time and Difficulty</a></p>
+</li>
+<li>
+<p><a href="#04-guide-symbols">0.4 Guide Symbols</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#1-modular-assembly-overview">1. Modular Assembly Overview</a></p>
+</li>
+<li>
+<p><a href="#part-i--mechanical-assembly">Part I — Mechanical Assembly</a></p>
+<ul>
+<li>
+<p><a href="#2-test-bench-frame">2. Test Bench Frame</a></p>
+<ul>
+<li>
+<p><a href="#21-before-assembly">2.1 Before Assembly</a></p>
+</li>
+<li>
+<p><a href="#22-printed-part-preparation">2.2 Printed Part Preparation</a></p>
+</li>
+<li>
+<p><a href="#23-vertical-support-installation">2.3 Vertical Support Installation</a></p>
+</li>
+<li>
+<p><a href="#24-completion-check">2.4 Completion Check</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#3-p350-tool-head-installation">3. P350 Tool Head Installation</a></p>
+<ul>
+<li>
+<p><a href="#31-tool-head-preparation">3.1 Tool Head Preparation</a></p>
+</li>
+<li>
+<p><a href="#32-required-preassembled-items">3.2 Required Preassembled Items</a></p>
+</li>
+<li>
+<p><a href="#33-mount-the-basic-tool-head">3.3 Mount the Basic Tool Head</a></p>
+</li>
+<li>
+<p><a href="#34-tool-head-cable-pre-routing">3.4 Tool-Head Cable Pre-Routing</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#part-ii--bring-up-and-testing">Part II — Bring-Up and Testing</a></p>
+<ul>
+<li>
+<p><a href="#4-hot-end-and-extruder-installation">4. Hot End and Extruder Installation</a></p>
+</li>
+<li>
+<p><a href="#5-firmware--software-installation">5. Firmware / Software Installation</a></p>
+</li>
+<li>
+<p><a href="#6-calibration">6. Calibration</a></p>
+</li>
+<li>
+<p><a href="#7-test-procedures">7. Test Procedures</a></p>
+</li>
+<li>
+<p><a href="#8-getting-help-and-test-records">8. Getting Help and Test Records</a></p>
+<ul>
+<li><a href="#81-when-you-need-help">8.1 When You Need Help</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1 id="0-before-you-start">0. Before You Start</h1>
+<h2 id="01-package-scope-included-and-customer-supplied-components">0.1 Package Scope: Included and Customer-Supplied Components</h2>
+<p>The Printer Test Bench is a modular test fixture. The test-bench fixture and the supplied P350-related hardware cover the <strong>Tool Head (TH) section, sensor section(included in the TH), and ESP board/interface section</strong>.</p>
+<blockquote>
+<p>⚠️ <strong>Important — Customer-Supplied Components:</strong> The test bench does <strong>not</strong> include a complete extrusion and printer-control system. The buyer must provide the following components.These components are required before bring-up, calibration, and functional testing can be completed.</p>
+</blockquote>
+<h3 id="who-is-this-for">Who is this for?</h3>
+<ul>
+<li>
+<p>Makers who want to research, develop, or evaluate systems using P350 Basic Tool Heads.</p>
+</li>
+<li>
+<p>Technicians performing repeated functional, endurance, or sensor tests.</p>
+</li>
+<li>
+<p>Users who want to build or experiment with a custom 3D-printer test setup.</p>
+</li>
+</ul>
+<h3 id="who-might-reconsider">Who might reconsider?</h3>
+<ul>
+<li>First-time 3D-printing users with no experience assembling, wiring, or configuring printer hardware.</li>
+</ul>
+<hr />
+<h2 id="02-intended-use-and-test-scope">0.2 Intended Use and Test Scope</h2>
+<h3 id="the-bench-is-intended-to-test">The bench is intended to test</h3>
+<ul>
+<li>
+<p>Flow condition</p>
+</li>
+<li>
+<p>Hot-end flow response</p>
+</li>
+<li>
+<p>Extrusion force</p>
+</li>
+</ul>
+<h3 id="environmental-limits">Environmental limits</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ambient temperature</td>
+<td>Room temperature</td>
+</tr>
+<tr>
+<td>Work surface</td>
+<td>Flat, stable, and non-combustible</td>
+</tr>
+<tr>
+<td>Ventilation</td>
+<td>Adequate ventilation when testing ABS or similar materials</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="03-estimated-time-and-difficulty">0.3 Estimated Time and Difficulty</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Estimated time</th>
+<th>Key challenge</th>
+<th>Experience needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Test Bench Frame</td>
+<td>10 min</td>
+<td>Alignment and rigidity</td>
+<td>Basic hands-on experience</td>
+</tr>
+<tr>
+<td>2. Basic Tool Head</td>
+<td>5 min</td>
+<td>Correct interface and cable clearance</td>
+<td>P350 familiarity helpful</td>
+</tr>
+<tr>
+<td>3. Wiring and Control Hardware</td>
+<td>10 min</td>
+<td>Pinout verification</td>
+<td>Electrical-safety awareness</td>
+</tr>
+<tr>
+<td>4. Calibration</td>
+<td>15 min</td>
+<td>Repeatable datum and measurement</td>
+<td>Careful measurement</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>[FILL IN]</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>We recommend validating each module before moving to the next stage.</p>
+<hr />
+<h2 id="04-guide-symbols">0.4 Guide Symbols</h2>
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Element</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔵</td>
+<td><strong>Completion Criteria</strong></td>
+<td>The exact condition that confirms the step is complete.</td>
+</tr>
+<tr>
+<td>🟡</td>
+<td><strong>Common Mistake</strong></td>
+<td>A frequent error and how to avoid it.</td>
+</tr>
+<tr>
+<td>🔴</td>
+<td><strong>Rollback</strong></td>
+<td>The minimum disassembly or adjustment needed to correct an error.</td>
+</tr>
+<tr>
+<td>✔️</td>
+<td><strong>Note</strong></td>
+<td>Helpful information or a reminder.</td>
+</tr>
+<tr>
+<td>⚠️</td>
+<td><strong>Caution</strong></td>
+<td>Risk of part damage, unreliable results, or significant rework.</td>
+</tr>
+<tr>
+<td>☠️</td>
+<td><strong>Danger</strong></td>
+<td>Risk of injury, fire, electrical shock, or catastrophic damage.</td>
+</tr>
+<tr>
+<td><code>- [ ]</code></td>
+<td><strong>Check Box</strong></td>
+<td>Used to record progress and inspection status.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="1-modular-assembly-overview">1. Modular Assembly Overview</h1>
+<p>The Printer Test Bench is divided into independently verifiable modules. A problem in one module should not require a complete rebuild of the entire test bench.</p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Contents</th>
+<th>Completion criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Test Bench Frame</td>
+<td>Base, vertical support, structural parts, and covers</td>
+<td>Bench is rigid and stable on a flat surface</td>
+</tr>
+<tr>
+<td>2. P350 Tool Head</td>
+<td>P350 Basic Tool Head, sensor components, and bench mounting hardware</td>
+<td>Tool Head is retained, aligned, and removable</td>
+</tr>
+<tr>
+<td>3. Extrusion Hardware</td>
+<td>Customer-supplied extruder, motor, hot end, and cooling hardware</td>
+<td>Components are securely installed and mechanically aligned</td>
+</tr>
+<tr>
+<td>4. Wiring and Control Hardware</td>
+<td>Supplied ESP board/interface hardware and customer-supplied controller board</td>
+<td>Connections are verified and strain-relieved</td>
+</tr>
+<tr>
+<td>5. Firmware / Test Interface</td>
+<td>Configuration, controls, and communication interfaces</td>
+<td>Software connects and devices respond correctly</td>
+</tr>
+<tr>
+<td>6. Calibration</td>
+<td>Extrusion and sensor reference procedures</td>
+<td>Required calibration steps are completed</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="part-i-mechanical-assembly">Part I — Mechanical Assembly</h1>
+<h1 id="2-test-bench-frame">2. Test Bench Frame</h1>
+<h2 id="21-before-assembly">2.1 Before Assembly</h2>
+<h3 id="printed-parts">Printed parts</h3>
+<ul>
+<li>
+<p>Base plate — 2pcs</p>
+</li>
+<li>
+<p>Side plate — 2 pcs</p>
+</li>
+<li>
+<p>Support Beam — 2 pcs</p>
+</li>
+</ul>
+<h3 id="fasteners">Fasteners</h3>
+<ul>
+<li>
+<p>M3 square nut (thin) — 8 pcs</p>
+</li>
+<li>
+<p>M3 x 18 — 4 pcs</p>
+</li>
+<li>
+<p>M3 x 14 — 4 pcs</p>
+</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>
+<p>2.0 mm and 2.5 mm hex keys</p>
+</li>
+<li>
+<p>Flat, stable work surface</p>
+</li>
+</ul>
+<h3 id="workspace">Workspace</h3>
+<ul>
+<li>
+<p>Flat work surface at least 200 mm x 200 mm</p>
+</li>
+<li>
+<p>Minimum clearance around the bench: 100 mm</p>
+</li>
+</ul>
+<hr />
+<h2 id="22-printed-part-preparation">2.2 Printed Part Preparation</h2>
+<p><strong>Estimated time:</strong> 5 min</p>
+<ol>
+<li>
+<p><strong>Inspect the base plate.</strong> Confirm that all mounting holes, slots, and locating features are free of debris.</p>
+</li>
+<li>
+<p><strong>Identify the front and rear.</strong> Position the base plate as shown. Orient the frame so that the indicated front side faces you.</p>
+<p><img alt="Identify and orient the test-bench frame parts" src="../src/assets/Test_Bench/frame-parts-orientation.png" /></p>
+</li>
+<li>
+<p><strong>Insert the square nuts.</strong> Insert the M3 thin square nuts into the indicated slots, as shown.</p>
+</li>
+</ol>
+<p><img alt="Insert the square nuts into the base plates" src="../src/assets/Test_Bench/insert-base-square-nuts.png" /></p>
+<p><img alt="Insert the square nuts into the vertical supports" src="../src/assets/Test_Bench/insert-support-square-nuts.png" /></p>
+<blockquote>
+<p>🟡 <strong>Common Mistake:</strong> Forgetting to insert the square nuts before installing the next part.</p>
+<p>🔵 <strong>Completion Criteria:</strong> All required square nuts are fully inserted and correctly positioned.</p>
+</blockquote>
+<hr />
+<h2 id="23-vertical-support-installation">2.3 Vertical Support Installation</h2>
+<p><strong>Estimated time:</strong>  5 min</p>
+<ol>
+<li>
+<p><strong>Position the vertical support.</strong> Fit the vertical support onto the base plate as shown. Make sure the mating slots and locating features are aligned.</p>
+<p><img alt="Position the vertical supports on the base plates" src="../src/assets/Test_Bench/position-vertical-supports.png" /></p>
+</li>
+<li>
+<p><strong>Tighten in sequence.</strong> Install the M3 × 18 mm screws and tighten them in the order shown, on both sides.</p>
+</li>
+</ol>
+<p><img alt="Fasten both vertical supports" src="../src/assets/Test_Bench/fasten-vertical-supports.png" /></p>
+<blockquote>
+<p>🔵 <strong>Completion Criteria:</strong> The vertical support is fully seated, does not visibly tilt, and does not move when moderate hand force is applied.</p>
+</blockquote>
+<hr />
+<h2 id="24-completion-check">2.4 Completion Check</h2>
+<p>Before continuing to Chapter 3, confirm the following:</p>
+<ul>
+<li>
+<p>[ ] The bench frame is rigid and sits flat without rocking.</p>
+</li>
+<li>
+<p>[ ] All main structural parts are installed in the correct orientation.</p>
+</li>
+<li>
+<p>[ ] All required access panels or covers can be removed as intended.</p>
+</li>
+<li>
+<p>[ ] There are no sharp edges, trapped wires, or loose fasteners.</p>
+</li>
+<li>
+<p>[ ] The Tool Head mounting points are ready for Chapter 3.</p>
+</li>
+</ul>
+<hr />
+<h1 id="3-p350-tool-head-installation">3. P350 Tool Head Installation</h1>
+<h2 id="31-tool-head-preparation">3.1 Tool Head Preparation</h2>
+<ol>
+<li>Prepare the P350 Basic Tool Head shown below.</li>
+</ol>
+<p><img alt="P350 Basic Tool Head" src="../src/assets/Test_Bench/p350-basic-tool-head.png" /></p>
+<hr />
+<h2 id="32-required-preassembled-items">3.2 Required Preassembled Items</h2>
+<ul>
+<li>
+<p>P350 Basic Tool Head Module — 1 pcs</p>
+</li>
+<li>
+<p>Support beams — 2 pcs</p>
+</li>
+</ul>
+<hr />
+<h2 id="33-mount-the-basic-tool-head">3.3 Mount the Basic Tool Head</h2>
+<ol>
+<li>
+<p><strong>Orient the Tool Head.</strong> Insert the support beams as shown.</p>
+<p><img alt="Insert the support beams into the P350 Basic Tool Head" src="../src/assets/Test_Bench/insert-tool-head-support-beams.png" /></p>
+</li>
+<li>
+<p><strong>Secure the support beams.</strong> Fasten the support beams using M3 × 14 mm screws.</p>
+</li>
+</ol>
+<p><img alt="Fasten the Tool Head support beams" src="../src/assets/Test_Bench/fasten-tool-head-support-beams.png" /></p>
+<hr />
+<h2 id="34-tool-head-cable-pre-routing">3.4 Tool-Head Cable Pre-Routing</h2>
+<ol>
+<li>
+<p>Locate the signal cable and connect it to the designated pins on the Tool Head PCB.</p>
+<p><img alt="Connect the signal cable to the Tool Head PCB" src="../src/assets/Test_Bench/connect-tool-head-signal-cable.png" /></p>
+</li>
+<li>
+<p>Locate the ESP board and connect the other end of the signal cable as shown.</p>
+</li>
+<li>
+<p>Connect the USB Type-C cable to the ESP board as shown. This connection will be used later for serial-port monitoring.</p>
+<p><img alt="ESP board signal and USB Type-C connections" src="../src/assets/Test_Bench/esp-board-connections.png" /></p>
+</li>
+</ol>
+<hr />
+<h1 id="part-ii-bring-up-and-testing">Part II — Bring-Up and Testing</h1>
+<h1 id="4-hot-end-and-extruder-installation">4. Hot End and Extruder Installation</h1>
+<blockquote>
+<p>⚠️ <strong>Customer-Supplied Hardware:</strong> The <strong>extruder, extruder motor, hot end module, and 3D-printer controller board/mainboard are not included</strong> with the test bench.</p>
+</blockquote>
+<ol>
+<li>
+<p>The P350 Tool Head is compatible with mainstream extruders such as the Serpha Mini and Galileo 2.0. The extruder and its motor must be supplied by the buyer.</p>
+</li>
+<li>
+<p>Install the extruder in the orientation shown.</p>
+<p><img alt="Install the extruder in the Tool Head" src="../src/assets/Test_Bench/install-extruder.png" /></p>
+</li>
+<li>
+<p>The Tool Head is also compatible with mainstream hot ends such as the E3D V6. Hot-end configurations with mounting-hole center spacing of <strong>13.16 mm or 16 mm</strong> can be mounted on the Tool Head. Install the selected hot end as shown. Make sure your hotend is pre assembled with heating element and thermistor.</p>
+<p><img alt="Install the hot end in the Tool Head" src="../src/assets/Test_Bench/install-hot-end.png" /></p>
+<p><img alt="Hot-end mounting-hole options" src="../src/assets/Test_Bench/hot-end-mounting-holes.png" /></p>
+</li>
+<li>
+<p>After installing the hot end, install the hot-end cooling fan as shown.</p>
+<p><img alt="Install the hot-end cooling fan" src="../src/assets/Test_Bench/install-hot-end-cooling-fan.png" /></p>
+</li>
+<li>
+<p>Complete the extruder installation. The P350 extruder is shown only as an installation example.</p>
+</li>
+<li>
+<p>Prepare a compatible 3D-printer controller board for the electrical bring-up. The controller board/mainboard is customer-supplied.</p>
+</li>
+<li>
+<p>Connect both the USB from ESP and from the Marlin compatible main board to your PC.</p>
+</li>
+<li>
+<p>Find the Port they are useing. You can check via system device.</p>
+</li>
+</ol>
+<hr />
+<h1 id="5-firmware-software-installation">5. Firmware / Software Installation</h1>
+<ol>
+<li>
+<p>Prepare a customer-supplied Marlin-compatible 3D-printer controller board and flash the required Marlin firmware. This part please refer to the official website of your own mainboard. </p>
+</li>
+<li>
+<p>We will suggest you use the following settings : baud rate 1152000. </p>
+</li>
+<li>
+<p>Make sure you corretly set up your exturder in your marlin system. Please refer to the offcial web of Marlin and do all the calibration and settings.</p>
+</li>
+<li>
+<p>Download the complete portable test software package: <a href="../src/assets/Test_Bench/FSL-Auto-Test-Windows-x64-2026.08.17.zip">FSL Auto Test for Windows x64 (2026.08.17)</a>.</p>
+</li>
+<li>
+<p>Extract the complete ZIP file to a writable local folder. Keep <code>FSL Auto Test.exe</code> and the <code>_internal</code> folder together.</p>
+</li>
+<li>
+<p>Double-click <code>FSL Auto Test.exe</code> to start the test application. Python and the required libraries are included in the portable package.</p>
+</li>
+<li>
+<p>Make sure both USB connections are plugged in: one from the controller board and one from the ESP board.</p>
+</li>
+<li>
+<p>Identify the COM ports used by the controller board and ESP board. You can check them in Windows Device Manager.</p>
+</li>
+<li>
+<p>Select the correct ports in the test software. (Also the baud rate)</p>
+<p><img alt="Select the Marlin and ESP serial ports" src="../src/assets/Test_Bench/select-serial-ports.png" /></p>
+</li>
+<li>
+<p>Click <strong>Connect</strong> and wait for the connection to complete. When the connection is successful, the status indicator will update and temperature/PWM data should become available. You should see things like these.</p>
+<p><img alt="Connected test data in FSL Auto Test" src="../src/assets/Test_Bench/connected-test-data.png" /></p>
+</li>
+<li>
+<p>If any error occur, replug both USB and do the connection again.</p>
+</li>
+<li>
+<p>After communication is confirmed, continue to calibration.</p>
+</li>
+</ol>
+<hr />
+<h1 id="6-calibration">6. Calibration</h1>
+<ol>
+<li>
+<p>Configure the extruder correctly according to the documentation for your controller board and stepper driver. Confirm that the extruder motor current and extrusion steps are correct. Make sure the extrusion direction are correct.</p>
+</li>
+<li>
+<p>Perform the extrusion-length calibration before beginning the test-bench calibration procedure.</p>
+</li>
+<li>
+<p>Reference: <a href="https://www.3dmakerengineering.com/blogs/3d-printing/estep-calibration">https://www.3dmakerengineering.com/blogs/3d-printing/estep-calibration</a></p>
+</li>
+</ol>
+<hr />
+<h1 id="8-getting-help-and-test-records">8. Getting Help and Test Records</h1>
+<h2 id="81-when-you-need-help">8.1 When You Need Help</h2>
+<p>Record the following information before requesting support:</p>
+<ul>
+<li>
+<p>Test bench revision and serial number</p>
+</li>
+<li>
+<p>Basic Tool Head revision and serial number</p>
+</li>
+<li>
+<p>Firmware / configuration version</p>
+</li>
+<li>
+<p>Exact failed step or test ID</p>
+</li>
+<li>
+<p>Actual result and acceptance limit</p>
+</li>
+<li>
+<p>Relevant photo or video</p>
+</li>
+<li>
+<p>Relevant log or CSV file</p>
+</li>
+<li>
+<p>Corrective action already attempted</p>
+</li>
+</ul>
+<p><strong>Support location:</strong> <code>[FILL IN EMAIL / ISSUE TRACKER / INTERNAL PATH]</code></p>
+<hr />
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../How_to_solve_MRR/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Motor Development Kit" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Motor Development Kit
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../General_Technical_Guide/" class="md-footer__link md-footer__link--next" aria-label="Next: General Technical Guide" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              General Technical Guide
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    <a href="https://www.facebook.com/Prorifi3D" target="_blank" rel="noopener" title="Prorifi3D on Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+    </a>
+  
+    
+    
+    <a href="https://www.youtube.com/channel/UCRQNWRVH8KuHBi94MY16joQ" target="_blank" rel="noopener" title="Prorifi3D on YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top"], "search": "../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+    
+  </body>
+</html>
