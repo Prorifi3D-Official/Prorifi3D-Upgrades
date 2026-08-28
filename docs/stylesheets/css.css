@@ -1,3 +1,121 @@
 .md-sidebar--secondary {
   order: 0;
 }
+
+.test-bench-package-scope {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.scope-card {
+  overflow: hidden;
+  border: 3px solid;
+  border-radius: 0.75rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 0.35rem 0.9rem rgba(0, 0, 0, 0.12);
+}
+
+.scope-card--included {
+  border-color: #087f8c;
+}
+
+.scope-card--required {
+  border-color: #d97706;
+}
+
+.scope-card__header {
+  padding: 1rem 1.15rem 0.95rem;
+  color: #ffffff;
+}
+
+.scope-card--included .scope-card__header {
+  background: #087f8c;
+}
+
+.scope-card--required .scope-card__header {
+  background: #b45309;
+}
+
+.scope-card__eyebrow {
+  display: block;
+  margin-bottom: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  opacity: 0.9;
+}
+
+.scope-card__header h4 {
+  margin: 0;
+  color: inherit;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.md-typeset .scope-card__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .scope-card__list > li {
+  position: relative;
+  margin: 0;
+  padding: 1rem 1.05rem 1rem 3rem;
+  list-style: none;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.scope-card__list li::marker {
+  content: "";
+}
+
+.scope-card__list li + li {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.scope-card__list li::before {
+  position: absolute;
+  top: 1rem;
+  left: 1.05rem;
+  display: grid;
+  width: 1.3rem;
+  height: 1.3rem;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.scope-card--included .scope-card__list li::before {
+  content: "\2713";
+  background: #087f8c;
+}
+
+.scope-card--required .scope-card__list li::before {
+  content: "!";
+  background: #d97706;
+}
+
+.scope-card__list strong,
+.scope-card__list span {
+  display: block;
+}
+
+.scope-card__list strong {
+  margin-bottom: 0.15rem;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 960px) {
+  .test-bench-package-scope {
+    grid-template-columns: 1fr;
+  }
+}

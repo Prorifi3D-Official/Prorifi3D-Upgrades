@@ -19,12 +19,32 @@ hide:
 
 The Printer Test Bench Kit provides the fixture, P350 Tool Head, sensor, and ESP interface hardware. A complete extrusion and printer-control system is not included.
 
-| Included with the Printer Test Bench Kit | Customer-supplied components |
-| --- | --- |
-| **Test-bench frame:** base plates, vertical supports, and Tool Head support beams | **Extrusion system:** a compatible extruder and extruder motor |
-| **Assembly hardware:** M3 thin square nuts and the required M3 screws | **Hot-end system:** a compatible hot end preassembled with a heater and thermistor, plus a hot-end cooling fan |
-| **P350 module:** P350 Basic Tool Head with the integrated sensor section | **Printer control:** a Marlin-compatible 3D-printer controller board/mainboard and the appropriate firmware |
-| **Interface hardware:** ESP board/interface and Tool Head signal cable | **Host connection:** a Windows 10 or 11 64-bit PC, compatible USB data cables, and any drivers required by the selected boards |
+<div class="test-bench-package-scope" role="group" aria-label="Package contents and customer-supplied components">
+  <section class="scope-card scope-card--included">
+    <header class="scope-card__header">
+      <span class="scope-card__eyebrow">KIT CONTENTS</span>
+      <h4>Included with the Kit</h4>
+    </header>
+    <ul class="scope-card__list">
+      <li><strong>Test-bench frame</strong><span>Base plates, vertical supports, and Tool Head support beams</span></li>
+      <li><strong>Assembly hardware</strong><span>M3 thin square nuts and the required M3 screws</span></li>
+      <li><strong>P350 module</strong><span>P350 Basic Tool Head with the integrated sensor section</span></li>
+      <li><strong>Interface hardware</strong><span>ESP board/interface and Tool Head signal cable</span></li>
+    </ul>
+  </section>
+  <section class="scope-card scope-card--required">
+    <header class="scope-card__header">
+      <span class="scope-card__eyebrow">USER-SUPPLIED</span>
+      <h4>User Must Provide</h4>
+    </header>
+    <ul class="scope-card__list">
+      <li><strong>Extrusion system</strong><span>A compatible extruder and extruder motor</span></li>
+      <li><strong>Hot-end system</strong><span>A compatible hot end with a heater, thermistor, and hot-end cooling fan</span></li>
+      <li><strong>Printer control</strong><span>A Marlin-compatible controller board/mainboard and the appropriate firmware</span></li>
+      <li><strong>Host connection</strong><span>A Windows 10 or 11 64-bit PC, compatible USB data cables, and required board drivers</span></li>
+    </ul>
+  </section>
+</div>
 
 > ⚠️ **Before bring-up:** Obtain and install every item in the customer-supplied column before starting calibration or functional testing.
 
