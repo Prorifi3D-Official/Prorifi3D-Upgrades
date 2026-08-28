@@ -1,10 +1,6 @@
-# 测试台Guide
-
-# 测试台 Guide
-
 # Printer Test Bench Guide
 
-**Version:** R0.3 Draft
+**Version:** R0.3
 
 ![Assembled Printer Test Bench](./src/assets/Test_Bench/assembled-printer-test-bench.png)
 
@@ -12,68 +8,22 @@
 
 ---
 
-## Contents
+## 0. Before You Start
 
-*   [0. Before You Start](#0-before-you-start)
-    
-    *   [0.1 Package Scope: Included and Customer-Supplied Components](#01-package-scope-included-and-customer-supplied-components)
-        
-    *   [0.2 Intended Use and Test Scope](#02-intended-use-and-test-scope)
-        
-    *   [0.3 Estimated Time and Difficulty](#03-estimated-time-and-difficulty)
-        
-    *   [0.4 Guide Symbols](#04-guide-symbols)
-        
-*   [1. Modular Assembly Overview](#1-modular-assembly-overview)
-    
-*   [Part I — Mechanical Assembly](#part-i--mechanical-assembly)
-    
-    *   [2. Test Bench Frame](#2-test-bench-frame)
-        
-        *   [2.1 Before Assembly](#21-before-assembly)
-            
-        *   [2.2 Printed Part Preparation](#22-printed-part-preparation)
-            
-        *   [2.3 Vertical Support Installation](#23-vertical-support-installation)
-            
-        *   [2.4 Completion Check](#24-completion-check)
-            
-    *   [3. P350 Tool Head Installation](#3-p350-tool-head-installation)
-        
-        *   [3.1 Tool Head Preparation](#31-tool-head-preparation)
-            
-        *   [3.2 Required Preassembled Items](#32-required-preassembled-items)
-            
-        *   [3.3 Mount the Basic Tool Head](#33-mount-the-basic-tool-head)
-            
-        *   [3.4 Tool-Head Cable Pre-Routing](#34-tool-head-cable-pre-routing)
-            
-*   [Part II — Bring-Up and Testing](#part-ii--bring-up-and-testing)
-    
-    *   [4. Hot End and Extruder Installation](#4-hot-end-and-extruder-installation)
-        
-    *   [5. Firmware / Software Installation](#5-firmware--software-installation)
-        
-    *   [6. Calibration](#6-calibration)
-        
-    *   [7. Test Procedures](#7-test-procedures)
-        
-    *   [8. Getting Help and Test Records](#8-getting-help-and-test-records)
-        
-        *   [8.1 When You Need Help](#81-when-you-need-help)
-            
+### 0.1 Package Scope: Included and Customer-Supplied Components
 
----
+The Printer Test Bench Kit provides the fixture, P350 Tool Head, sensor, and ESP interface hardware. A complete extrusion and printer-control system is not included.
 
-# 0. Before You Start
+| Included with the Printer Test Bench Kit | Customer-supplied components |
+| --- | --- |
+| **Test-bench frame:** base plates, vertical supports, and Tool Head support beams | **Extrusion system:** a compatible extruder and extruder motor |
+| **Assembly hardware:** M3 thin square nuts and the required M3 screws | **Hot-end system:** a compatible hot end preassembled with a heater and thermistor, plus a hot-end cooling fan |
+| **P350 module:** P350 Basic Tool Head with the integrated sensor section | **Printer control:** a Marlin-compatible 3D-printer controller board/mainboard and the appropriate firmware |
+| **Interface hardware:** ESP board/interface and Tool Head signal cable | **Host connection:** a Windows 10 or 11 64-bit PC, compatible USB data cables, and any drivers required by the selected boards |
 
-## 0.1 Package Scope: Included and Customer-Supplied Components
+> ⚠️ **Before bring-up:** Obtain and install every item in the customer-supplied column before starting calibration or functional testing.
 
-The Printer Test Bench is a modular test fixture. The test-bench fixture and the supplied P350-related hardware cover the **Tool Head (TH) section, sensor section(included in the TH), and ESP board/interface section**.
-
-> ⚠️ **Important — Customer-Supplied Components:** The test bench does **not** include a complete extrusion and printer-control system. The buyer must provide the following components.These components are required before bring-up, calibration, and functional testing can be completed.
-
-### Who is this for?
+#### Who is this for?
 
 *   Makers who want to research, develop, or evaluate systems using P350 Basic Tool Heads.
     
@@ -82,16 +32,16 @@ The Printer Test Bench is a modular test fixture. The test-bench fixt
 *   Users who want to build or experiment with a custom 3D-printer test setup.
     
 
-### Who might reconsider?
+#### Who might reconsider?
 
 *   First-time 3D-printing users with no experience assembling, wiring, or configuring printer hardware.
     
 
 ---
 
-## 0.2 Intended Use and Test Scope
+### 0.2 Intended Use and Test Scope
 
-### The bench is intended to test
+#### The bench is intended to test
 
 *   Flow condition
     
@@ -100,7 +50,7 @@ The Printer Test Bench is a modular test fixture. The test-bench fixt
 *   Extrusion force
     
 
-### Environmental limits
+#### Environmental limits
 
 | Item | Requirement |
 | --- | --- |
@@ -110,7 +60,7 @@ The Printer Test Bench is a modular test fixture. The test-bench fixt
 
 ---
 
-## 0.3 Estimated Time and Difficulty
+### 0.3 Estimated Time and Difficulty
 
 | Stage | Estimated time | Key challenge | Experience needed |
 | --- | --- | --- | --- |
@@ -118,13 +68,13 @@ The Printer Test Bench is a modular test fixture. The test-bench fixt
 | 2. Basic Tool Head | 5 min | Correct interface and cable clearance | P350 familiarity helpful |
 | 3. Wiring and Control Hardware | 10 min | Pinout verification | Electrical-safety awareness |
 | 4. Calibration | 15 min | Repeatable datum and measurement | Careful measurement |
-| **Total** | **\[FILL IN\]** |  |  |
+| **Total** | **40 min** |  |  |
 
 We recommend validating each module before moving to the next stage.
 
 ---
 
-## 0.4 Guide Symbols
+### 0.4 Guide Symbols
 
 | Symbol | Element | Purpose |
 | --- | --- | --- |
@@ -138,7 +88,7 @@ We recommend validating each module before moving to the next stage.
 
 ---
 
-# 1. Modular Assembly Overview
+## 1. Modular Assembly Overview
 
 The Printer Test Bench is divided into independently verifiable modules. A problem in one module should not require a complete rebuild of the entire test bench.
 
@@ -153,13 +103,13 @@ The Printer Test Bench is divided into independently verifiable modules
 
 ---
 
-# Part I — Mechanical Assembly
+## Part I - Mechanical Assembly
 
-# 2. Test Bench Frame
+### 2. Test Bench Frame
 
-## 2.1 Before Assembly
+#### 2.1 Before Assembly
 
-### Printed parts
+##### Printed parts
 
 *   Base plate — 2pcs
     
@@ -168,7 +118,7 @@ The Printer Test Bench is divided into independently verifiable modules
 *   Support Beam — 2 pcs
     
 
-### Fasteners
+##### Fasteners
 
 *   M3 square nut (thin) — 8 pcs
     
@@ -177,14 +127,14 @@ The Printer Test Bench is divided into independently verifiable modules
 *   M3 x 14 — 4 pcs
     
 
-### Tools
+##### Tools
 
 *   2.0 mm and 2.5 mm hex keys
     
 *   Flat, stable work surface
     
 
-### Workspace
+##### Workspace
 
 *   Flat work surface at least 200 mm x 200 mm
     
@@ -193,7 +143,7 @@ The Printer Test Bench is divided into independently verifiable modules
 
 ---
 
-## 2.2 Printed Part Preparation
+#### 2.2 Printed Part Preparation
 
 **Estimated time:** 5 min
 
@@ -216,7 +166,7 @@ The Printer Test Bench is divided into independently verifiable modules
 
 ---
 
-## 2.3 Vertical Support Installation
+#### 2.3 Vertical Support Installation
 
 **Estimated time:**  5 min
 
@@ -233,7 +183,7 @@ The Printer Test Bench is divided into independently verifiable modules
 
 ---
 
-## 2.4 Completion Check
+#### 2.4 Completion Check
 
 Before continuing to Chapter 3, confirm the following:
 
@@ -250,9 +200,9 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-# 3. P350 Tool Head Installation
+### 3. P350 Tool Head Installation
 
-## 3.1 Tool Head Preparation
+#### 3.1 Tool Head Preparation
 
 1.  Prepare the P350 Basic Tool Head shown below.
     
@@ -261,7 +211,7 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-## 3.2 Required Preassembled Items
+#### 3.2 Required Preassembled Items
 
 *   P350 Basic Tool Head Module — 1 pcs
     
@@ -270,7 +220,7 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-## 3.3 Mount the Basic Tool Head
+#### 3.3 Mount the Basic Tool Head
 
 1.  **Orient the Tool Head.** Insert the support beams as shown.
     
@@ -283,7 +233,7 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-## 3.4 Tool-Head Cable Pre-Routing
+#### 3.4 Tool-Head Cable Pre-Routing
 
 1.  Locate the signal cable and connect it to the designated pins on the Tool Head PCB.
 
@@ -298,9 +248,9 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-# Part II — Bring-Up and Testing
+## Part II - Bring-Up and Testing
 
-# 4. Hot End and Extruder Installation
+### 4. Hot End and Extruder Installation
 
 > ⚠️ **Customer-Supplied Hardware:** The **extruder, extruder motor, hot end module, and 3D-printer controller board/mainboard are not included** with the test bench.
 
@@ -324,20 +274,20 @@ Before continuing to Chapter 3, confirm the following:
     
 6.  Prepare a compatible 3D-printer controller board for the electrical bring-up. The controller board/mainboard is customer-supplied.
     
-7.  Connect both the USB from ESP and from the Marlin compatible main board to your PC.
+7.  Connect the ESP board and the Marlin-compatible controller board to your PC using USB cables.
     
-8.  Find the Port they are useing. You can check via system device.
+8.  In Windows Device Manager, identify the COM ports assigned to the ESP board and controller board.
     
 
 ---
 
-# 5. Firmware / Software Installation
+### 5. Firmware and Software Installation
 
-1.  Prepare a customer-supplied Marlin-compatible 3D-printer controller board and flash the required Marlin firmware. This part please refer to the official website of your own mainboard. 
+1.  Prepare a customer-supplied Marlin-compatible 3D-printer controller board and flash the required Marlin firmware. Follow the controller-board manufacturer's instructions.
     
-2.  We will suggest you use the following settings : baud rate 1152000. 
+2.  Use a Marlin baud rate of 115200 unless your controller-board configuration specifies a different value.
     
-3.  Make sure you corretly set up your exturder in your marlin system. Please refer to the offcial web of Marlin and do all the calibration and settings.
+3.  Configure the extruder correctly in Marlin and complete all required calibration and configuration steps.
     
 4.  Download the complete portable test software package: [FSL Auto Test for Windows x64 (2026.08.17)](./src/assets/Test_Bench/FSL-Auto-Test-Windows-x64-2026.08.17.zip).
     
@@ -357,16 +307,16 @@ Before continuing to Chapter 3, confirm the following:
 
     ![Connected test data in FSL Auto Test](./src/assets/Test_Bench/connected-test-data.png)
     
-11.  If any error occur, replug both USB and do the connection again.
+11.  If a connection error occurs, disconnect and reconnect both USB cables, then repeat the connection procedure.
     
 12.  After communication is confirmed, continue to calibration.
     
 
 ---
 
-# 6. Calibration
+### 6. Calibration
 
-1.  Configure the extruder correctly according to the documentation for your controller board and stepper driver. Confirm that the extruder motor current and extrusion steps are correct. Make sure the extrusion direction are correct.
+1.  Configure the extruder according to the documentation for your controller board and stepper driver. Confirm that the extruder-motor current, extrusion steps, and extrusion direction are correct.
     
 2.  Perform the extrusion-length calibration before beginning the test-bench calibration procedure.
     
@@ -375,9 +325,9 @@ Before continuing to Chapter 3, confirm the following:
 
 ---
 
-# 8. Getting Help and Test Records
+### 7. Getting Help and Test Records
 
-## 8.1 When You Need Help
+#### 7.1 When You Need Help
 
 Record the following information before requesting support:
 
@@ -398,6 +348,6 @@ Record the following information before requesting support:
 *   Corrective action already attempted
     
 
-**Support location:** `[FILL IN EMAIL / ISSUE TRACKER / INTERNAL PATH]`
+**Support:** Visit the [Prorifi3D Upgrades GitHub repository](https://github.com/Prorifi3D-Official/Prorifi3D-Upgrades) to request support or report an issue.
 
 ---
